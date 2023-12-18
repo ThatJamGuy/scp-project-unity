@@ -156,7 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Camera: {fileID: 2375772253314695336}
-  walkingSpeed: 2
+  walkingSpeed: 3
   CroughSpeed: 1
   RuningSpeed: 5
   jumpSpeed: 6
