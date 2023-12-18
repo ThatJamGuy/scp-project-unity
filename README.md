@@ -4,3 +4,6 @@ Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which rec
 
 # Want to contribute?
 Every action I take in the development process could alwways be better, especially with how the code is written and managed, so if you think you can do something better, feel free to make a pull request!
+
+# Collaborators
+-  ThatJamGuy (Just me so far, but if anyone makes any significant contributions to the game then I'll put them here.)
