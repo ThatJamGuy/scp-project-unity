@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: TileFloor
+  m_Name: Metal3
   m_Shader: {fileID: 4800000, guid: 6e4ae4064600d784cac1e41a9e6f2e59, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseColorMap:
-        m_Texture: {fileID: 2800000, guid: b8ad2a9c537740241be837e8d3331a74, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef2d84225919fbc409fce26d0229ff55, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BentNormalMap:
@@ -72,7 +72,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: b8ad2a9c537740241be837e8d3331a74, type: 3}
+        m_Texture: {fileID: 2800000, guid: ef2d84225919fbc409fce26d0229ff55, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
@@ -80,7 +80,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: fa6d9fb6d600cb045addd983db30e63d, type: 3}
+        m_Texture: {fileID: 2800000, guid: fe25d79cd3e32c24ca7d25aed36c4c7b, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMapOS:
@@ -202,7 +202,7 @@ Material:
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
-    - _Smoothness: 0.093
+    - _Smoothness: 0
     - _SmoothnessRemapMax: 1
     - _SmoothnessRemapMin: 0
     - _SpecularAAScreenSpaceVariance: 0.1
@@ -259,7 +259,7 @@ Material:
     - _UVMappingMask: {r: 1, g: 0, b: 0, a: 0}
     - _UVMappingMaskEmissive: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &2671834235005017855
+--- !u!114 &3501536607540989885
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
