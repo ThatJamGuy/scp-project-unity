@@ -4,7 +4,7 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Ladder
+  - RegularSurface
   layers:
   - Default
   - TransparentFX

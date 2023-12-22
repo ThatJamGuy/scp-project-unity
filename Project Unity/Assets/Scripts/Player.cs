@@ -3,10 +3,11 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
 {
+
+
     [Header("Player Speeds")]
     [SerializeField] private float walkSpeed = 5.0f;
     [SerializeField] private float sprintSpeed = 10.0f;
-    [SerializeField] private float crouchSpeed = 2.0f;
 
     [Header("Looking/Movement")]
     [SerializeField] private Camera playerCamera;
@@ -17,16 +18,17 @@ public class Player : MonoBehaviour
     [Header("Headbobbing")]
     [SerializeField] private float bobbingSpeed = 0.18f;
     [SerializeField] private float bobbingAmount = 0.2f;
-    private float headbobCycle = 0.0f;
-    private bool isMoving = false;  // Track whether the player is moving or not
-    private Vector3 originalCameraPosition;
-    private float originalYPos;
+    [SerializeField] private GameObject groundDetect;
 
     [HideInInspector] public bool canMove = true;
 
+    bool isSprinting = false;
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
+    private float headbobCycle = 0.0f;
+    private Vector3 originalCameraPosition;
+    private float originalYPos;
 
     void Start()
     {
@@ -46,6 +48,8 @@ public class Player : MonoBehaviour
         MoveCharacterController();
         RotatePlayerAndCamera();
         ApplyHeadbobbing();
+
+        groundDetect.transform.position = playerCamera.transform.position;
     }
 
     void HandleMovementInput()
@@ -54,6 +58,7 @@ public class Player : MonoBehaviour
         Vector3 right = transform.TransformDirection(Vector3.right);
 
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
+        isSprinting = isRunning;
 
         float curSpeedX = canMove ? (isRunning ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Vertical") : 0;
         float curSpeedY = canMove ? (isRunning ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Horizontal") : 0;
@@ -89,8 +94,10 @@ public class Player : MonoBehaviour
     {
         if (Mathf.Abs(moveDirection.x) > 0.01f || Mathf.Abs(moveDirection.z) > 0.01f)
         {
-            // Player is moving
-            isMoving = true;
+            if (isSprinting)
+                bobbingSpeed = 10;
+            else
+                bobbingSpeed = 7;
 
             // Update headbob cycle
             headbobCycle += bobbingSpeed * Time.deltaTime;
@@ -107,9 +114,6 @@ public class Player : MonoBehaviour
         }
         else
         {
-            // Player is not moving
-            isMoving = false;
-
             // Save the current headbob position if not moving
             originalCameraPosition = playerCamera.transform.localPosition;
 
