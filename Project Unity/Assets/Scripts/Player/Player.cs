@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Player : MonoBehaviour
@@ -14,8 +16,6 @@ public class Player : MonoBehaviour
     [Header("Headbobbing Values")]
     [SerializeField] float bobbingAmount;
     [SerializeField] float bobbingSpeed;
-
-    [Header("Audio/SFX")]
 
     [HideInInspector] public bool canMove = true;
 
@@ -40,7 +40,6 @@ public class Player : MonoBehaviour
         Move();
         Look();
         HeadBobbing();
-        FootstepSounds();
     }
 
     // Method for controller basic movement
@@ -90,10 +89,5 @@ public class Player : MonoBehaviour
             float newY = playerCamera.transform.localPosition.y;
             playerCamera.transform.localPosition = new Vector3(playerCamera.transform.localPosition.x, newY, playerCamera.transform.localPosition.z);
         }
-    }
-
-    void FootstepSounds()
-    {
-        
     }
 }
