@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
 
     [Header("Looking/Movement")]
     [SerializeField] private Camera playerCamera;
+    public bool isSprinting = false;
     [SerializeField] private float lookSpeed = 2.0f;
     [SerializeField] private float lookXLimit = 45.0f;
     [SerializeField] private float gravity = 20.0f;
@@ -22,7 +23,6 @@ public class Player : MonoBehaviour
 
     [HideInInspector] public bool canMove = true;
 
-    bool isSprinting = false;
     private CharacterController characterController;
     private Vector3 moveDirection = Vector3.zero;
     private float rotationX = 0;
