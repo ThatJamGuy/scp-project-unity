@@ -14,6 +14,14 @@ public class Player : MonoBehaviour
     [SerializeField] private float lookXLimit = 45.0f;
     [SerializeField] private float gravity = 20.0f;
 
+    [Header("Headbobbing")]
+    [SerializeField] private float bobbingSpeed = 0.18f;
+    [SerializeField] private float bobbingAmount = 0.2f;
+    private float headbobCycle = 0.0f;
+    private bool isMoving = false;  // Track whether the player is moving or not
+    private Vector3 originalCameraPosition;
+    private float originalYPos;
+
     [HideInInspector] public bool canMove = true;
 
     private CharacterController characterController;
@@ -22,11 +30,13 @@ public class Player : MonoBehaviour
 
     void Start()
     {
-        characterController = GetComponent <CharacterController>();
+        characterController = GetComponent<CharacterController>();
 
-        // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        originalYPos = playerCamera.transform.localPosition.y;
+        originalCameraPosition = playerCamera.transform.localPosition;
     }
 
     void Update()
@@ -35,6 +45,7 @@ public class Player : MonoBehaviour
         ApplyGravity();
         MoveCharacterController();
         RotatePlayerAndCamera();
+        ApplyHeadbobbing();
     }
 
     void HandleMovementInput()
@@ -42,7 +53,6 @@ public class Player : MonoBehaviour
         Vector3 forward = transform.TransformDirection(Vector3.forward);
         Vector3 right = transform.TransformDirection(Vector3.right);
 
-        // Press Left Shift to run
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
 
         float curSpeedX = canMove ? (isRunning ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Vertical") : 0;
@@ -72,6 +82,43 @@ public class Player : MonoBehaviour
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
             playerCamera.transform.localRotation = Quaternion.Euler(rotationX, 0, 0);
             transform.rotation *= Quaternion.Euler(0, Input.GetAxis("Mouse X") * lookSpeed, 0);
+        }
+    }
+
+    void ApplyHeadbobbing()
+    {
+        if (Mathf.Abs(moveDirection.x) > 0.01f || Mathf.Abs(moveDirection.z) > 0.01f)
+        {
+            // Player is moving
+            isMoving = true;
+
+            // Update headbob cycle
+            headbobCycle += bobbingSpeed * Time.deltaTime;
+
+            // Calculate headbob position
+            float yPos = originalYPos + Mathf.Sin(headbobCycle) * bobbingAmount;
+
+            // Apply headbob to camera
+            playerCamera.transform.localPosition = new Vector3(
+                playerCamera.transform.localPosition.x,
+                yPos,
+                playerCamera.transform.localPosition.z
+            );
+        }
+        else
+        {
+            // Player is not moving
+            isMoving = false;
+
+            // Save the current headbob position if not moving
+            originalCameraPosition = playerCamera.transform.localPosition;
+
+            // Lerp camera position to the original position
+            playerCamera.transform.localPosition = Vector3.Lerp(
+                playerCamera.transform.localPosition,
+                originalCameraPosition,
+                Time.deltaTime * bobbingSpeed
+            );
         }
     }
 }

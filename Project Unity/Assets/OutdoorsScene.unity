@@ -1116,6 +1116,8 @@ MonoBehaviour:
   lookSpeed: 2
   lookXLimit: 90
   gravity: 100
+  bobbingSpeed: 7
+  bobbingAmount: 0.1
   canMove: 1
 --- !u!143 &1139253999
 CharacterController:
