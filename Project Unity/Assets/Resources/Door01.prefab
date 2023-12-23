@@ -538,8 +538,12 @@ MonoBehaviour:
   door02: {fileID: 4605961860328770024}
   doorAudio: {fileID: 487856386030175115}
   doorOpenSFX:
+  - {fileID: 8300000, guid: 6a58e3f099efada489af66fc068beb73, type: 3}
+  - {fileID: 8300000, guid: 6b92fa44856fa754ab2cbf71b4fcc3e8, type: 3}
   - {fileID: 8300000, guid: 8bc73251db5f981439dbb99e2237f481, type: 3}
   doorCloseSFX:
+  - {fileID: 8300000, guid: b4df203cf2c0579479e092b67c53a7fb, type: 3}
+  - {fileID: 8300000, guid: ada46599de834db4c907918f58b5f5b4, type: 3}
   - {fileID: 8300000, guid: c7f6583931b34c84ca18b5f58105398b, type: 3}
 --- !u!1 &4287485862170029011
 GameObject:

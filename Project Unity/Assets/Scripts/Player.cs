@@ -3,8 +3,6 @@ using UnityEngine;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
 {
-
-
     [Header("Player Speeds")]
     [SerializeField] private float walkSpeed = 5.0f;
     [SerializeField] private float sprintSpeed = 10.0f;
