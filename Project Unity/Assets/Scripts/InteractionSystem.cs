@@ -45,6 +45,9 @@ public class InteractionSystem : MonoBehaviour
                 interactDisplay.rectTransform.anchoredPosition = canvasPosition;
 
                 interactDisplay.gameObject.SetActive(true);
+
+                if(Input.GetMouseButton(0))
+                    currentInteractible.GetComponent<DoorButton>().UseButton();
             }
             else
             {
