@@ -3,8 +3,9 @@ using UnityEngine;
 public class DoorButton : MonoBehaviour
 {
     [SerializeField] AudioSource buttonSFX;
+    public Door door;
     public bool doorButton = true;
-    public float interactCooldown;
+    public float interactCooldown = 0.1f;
 
     private void Update()
     {
@@ -13,7 +14,21 @@ public class DoorButton : MonoBehaviour
 
     public void UseButton()
     {
-        if(interactCooldown < 0)
-            buttonSFX.Play(); interactCooldown = 0.1f;
+        if (interactCooldown > 0) return;
+
+        buttonSFX.Play();
+        interactCooldown = 0.1f;
+
+        if (door != null)
+        {
+            if (door.isOpen)
+            {
+                door.CloseDoor();
+            }
+            else
+            {
+                door.OpenDoor();
+            }
+        }
     }
 }
