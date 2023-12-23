@@ -49,11 +49,29 @@ public class Door : MonoBehaviour
             PlayDoorSound(doorOpenSFX);
             isOpen = true;
         }
+        if (DoorType == DoorType.ContainmentDoor && !isOpening && !isOpen)
+        {
+            door01TargetPosition = door01InitialPosition + new Vector3(0f, 0f, regularOpenCloseDistance);
+            door02TargetPosition = door02InitialPosition - new Vector3(0f, 0f, regularOpenCloseDistance);
+            StartCoroutine(SlideDoor(door01, door01TargetPosition, regularOpenCloseSpeed));
+            StartCoroutine(SlideDoor(door02, door02TargetPosition, regularOpenCloseSpeed));
+            PlayDoorSound(doorOpenSFX);
+            isOpen = true;
+        }
     }
 
     public void CloseDoor()
     {
         if (DoorType == DoorType.RegularSliding && isOpen && !isOpening)
+        {
+            door01TargetPosition = door01InitialPosition;
+            door02TargetPosition = door02InitialPosition;
+            StartCoroutine(SlideDoor(door01, door01TargetPosition, regularOpenCloseSpeed));
+            StartCoroutine(SlideDoor(door02, door02TargetPosition, regularOpenCloseSpeed));
+            PlayDoorSound(doorCloseSFX);
+            isOpen = false;
+        }
+        if (DoorType == DoorType.ContainmentDoor && isOpen && !isOpening)
         {
             door01TargetPosition = door01InitialPosition;
             door02TargetPosition = door02InitialPosition;
