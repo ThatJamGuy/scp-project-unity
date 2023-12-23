@@ -7,11 +7,12 @@ TagManager:
   - RegularSurface
   - MetalSurface
   - Item
+  - IntroTrigger
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - PostProcessing
+  - ChamberTrigger
   - Water
   - UI
   - Hands
