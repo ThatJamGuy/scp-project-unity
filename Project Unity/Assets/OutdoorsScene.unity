@@ -3203,7 +3203,6 @@ GameObject:
   - component: {fileID: 1783993597}
   - component: {fileID: 1783993598}
   - component: {fileID: 1783993599}
-  - component: {fileID: 1783993600}
   m_Layer: 0
   m_Name: BreachManager
   m_TagString: Untagged
@@ -3364,36 +3363,6 @@ MonoBehaviour:
   emergencyLights: {fileID: 432138909}
   scpTarget3: {fileID: 1595714214}
   doorButton: {fileID: 3530278899715565475}
---- !u!114 &1783993600
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1783993595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7db09bac93dbf44b8ea4539282b7c66, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mapSize: {x: 2, y: 2}
-  roomTemplates:
-  - prefab: {fileID: 8195629220018308061, guid: c3d4776548d45194e9f810d5f1fe908d,
-      type: 3}
-    roomType: 1
-    doorPositions:
-    - {x: 0, y: 0, z: 10.25}
-    - {x: 0, y: 0, z: -10.25}
-    - {x: 10.25, y: 0, z: 0}
-    - {x: -10.25, y: 0, z: 0}
-  - prefab: {fileID: 5128993144748963399, guid: c9a54066afa3645448d054bd094a565f,
-      type: 3}
-    roomType: 0
-    doorPositions:
-    - {x: 0, y: 0, z: 10.25}
-    - {x: 0, y: 0, z: -10.25}
-    - {x: 10.25, y: 0, z: 0}
-  roomSize: 20
 --- !u!1 &1797032440
 GameObject:
   m_ObjectHideFlags: 0
