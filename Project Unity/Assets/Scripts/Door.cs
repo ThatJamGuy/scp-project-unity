@@ -42,8 +42,8 @@ public class Door : MonoBehaviour
     {
         if (DoorType == DoorType.RegularSliding && !isOpening && !isOpen)
         {
-            door01TargetPosition = door01InitialPosition + new Vector3(regularOpenCloseDistance, 0f, 0f);
-            door02TargetPosition = door02InitialPosition - new Vector3(regularOpenCloseDistance, 0f, 0f);
+            door01TargetPosition = door01InitialPosition + transform.right * regularOpenCloseDistance;
+            door02TargetPosition = door02InitialPosition - transform.right * regularOpenCloseDistance;
             StartCoroutine(SlideDoor(door01, door01TargetPosition, regularOpenCloseSpeed));
             StartCoroutine(SlideDoor(door02, door02TargetPosition, regularOpenCloseSpeed));
             PlayDoorSound(doorOpenSFX);
@@ -51,8 +51,8 @@ public class Door : MonoBehaviour
         }
         if (DoorType == DoorType.ContainmentDoor && !isOpening && !isOpen)
         {
-            door01TargetPosition = door01InitialPosition + new Vector3(0f, 0f, regularOpenCloseDistance);
-            door02TargetPosition = door02InitialPosition - new Vector3(0f, 0f, regularOpenCloseDistance);
+            door01TargetPosition = door01InitialPosition + transform.right * regularOpenCloseDistance;
+            door02TargetPosition = door02InitialPosition - transform.right * regularOpenCloseDistance;
             StartCoroutine(SlideDoor(door01, door01TargetPosition, regularOpenCloseSpeed));
             StartCoroutine(SlideDoor(door02, door02TargetPosition, regularOpenCloseSpeed));
             PlayDoorSound(doorOpenSFX);
