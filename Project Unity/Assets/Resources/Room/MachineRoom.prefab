@@ -1269,7 +1269,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0678969d3cb790649b94c81d1b5ed0f6, type: 2}
-  - {fileID: 7796246882676991392, guid: f16cffe9299e7844e9989d47ea2d6fc7, type: 3}
+  - {fileID: 2100000, guid: da95436aad46fb046aaee99f934c5ffd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -17119,7 +17119,7 @@ MeshRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 0678969d3cb790649b94c81d1b5ed0f6, type: 2}
-  - {fileID: 7796246882676991392, guid: f16cffe9299e7844e9989d47ea2d6fc7, type: 3}
+  - {fileID: 2100000, guid: da95436aad46fb046aaee99f934c5ffd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -18085,7 +18085,7 @@ Transform:
   m_GameObject: {fileID: 6105079121025740208}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.518, z: 7.041}
+  m_LocalPosition: {x: 0, y: 3.518001, z: 7.037}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24053,7 +24053,7 @@ Transform:
   m_GameObject: {fileID: 8703426794017408672}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 3.68}
+  m_LocalPosition: {x: 0, y: 0, z: 3.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -24172,8 +24172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DoorType: 2
   isOpen: 0
-  regularOpenCloseSpeed: 1
-  regularOpenCloseDistance: 1
+  regularOpenCloseSpeed: 0.65
+  regularOpenCloseDistance: 2
   door01: {fileID: 1662096521061728463}
   door02: {fileID: 3026174288217260340}
   doorAudio: {fileID: 6653691684643522361}
