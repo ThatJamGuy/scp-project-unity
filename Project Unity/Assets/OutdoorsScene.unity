@@ -3307,6 +3307,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 30
+  renderLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!1 &1734477634
 GameObject:
   m_ObjectHideFlags: 0
@@ -3716,8 +3719,8 @@ MonoBehaviour:
   Seed: 0
   SectionContainer: {fileID: 2111598190}
   CreateDoors: {fileID: 1783993602}
-  MaxLevelSize: 50
-  MaxAllowedOrder: 5
+  MaxLevelSize: 30
+  MaxAllowedOrder: 20
   Sections:
   - {fileID: 1392791301117603099, guid: bdb9b4464de27424d9495fc2cfc070e9, type: 3}
   - {fileID: 3220872747839294354, guid: 494683eba7ece1a46b801c3bf891cad0, type: 3}
@@ -3726,6 +3729,7 @@ MonoBehaviour:
   - {fileID: 8584392288457063768, guid: b5283deb1348fec42829d5e59f772820, type: 3}
   DeadEnds:
   - {fileID: 2931953052062111354, guid: ef652db456dc9e042a5ffb44922780b3, type: 3}
+  - {fileID: 4830199633940484728, guid: aaab06dcf52e96a4faad7283f59a7577, type: 3}
   InitialSectionTags:
   - TwoWay
   SpecialRules: []
@@ -20240,6 +20244,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2760964349743856747, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
+        type: 3}
+      propertyPath: gravity
+      value: 500
+      objectReference: {fileID: 0}
     - target: {fileID: 3650356279168480053, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
         type: 3}
       propertyPath: canvas
@@ -20263,7 +20272,7 @@ PrefabInstance:
     - target: {fileID: 4492752479657820666, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.25
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4492752479657820666, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
         type: 3}

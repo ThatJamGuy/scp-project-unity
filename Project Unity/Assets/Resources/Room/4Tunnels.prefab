@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1289614835218550528}
   - component: {fileID: 6981894467049788040}
   - component: {fileID: 1410521604256931344}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.109
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -120,7 +120,7 @@ GameObject:
   - component: {fileID: 4388721833764435731}
   - component: {fileID: 8456529478921117359}
   - component: {fileID: 2713841880368710726}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.034
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 5471514221023692696}
   - component: {fileID: 5902335705091856488}
   - component: {fileID: 8756060404097564516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -334,7 +334,7 @@ GameObject:
   - component: {fileID: 2359778389143059767}
   - component: {fileID: 8660361034169877778}
   - component: {fileID: 61039921239225365}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.105
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -442,7 +442,7 @@ GameObject:
   - component: {fileID: 7927717009950799454}
   - component: {fileID: 7321130019393134273}
   - component: {fileID: 8784570466146311086}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.116
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 7967900758102015760}
   - component: {fileID: 1175535149506848160}
   - component: {fileID: 894877496415622197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.040
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -656,7 +656,7 @@ GameObject:
   - component: {fileID: 8588361930956033593}
   - component: {fileID: 9133005942661826602}
   - component: {fileID: 1669028859945451197}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.025
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -762,7 +762,7 @@ GameObject:
   - component: {fileID: 6664283596796054473}
   - component: {fileID: 8574405231833869202}
   - component: {fileID: 3252711400886978087}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -868,7 +868,7 @@ GameObject:
   - component: {fileID: 8682079746794661132}
   - component: {fileID: 5070176896866085455}
   - component: {fileID: 5329827375978541749}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.142
   m_TagString: MetalSurface
   m_Icon: {fileID: 0}
@@ -974,7 +974,7 @@ GameObject:
   - component: {fileID: 1853594572262994720}
   - component: {fileID: 7012906073034635085}
   - component: {fileID: 995722348408712282}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.023
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1080,7 +1080,7 @@ GameObject:
   - component: {fileID: 3277036528001977854}
   - component: {fileID: 154512125965409711}
   - component: {fileID: 4780489613110818352}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.097
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 9051560354214112200}
   - component: {fileID: 8638048220869676059}
   - component: {fileID: 4358472211804353934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.066
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1294,7 +1294,7 @@ GameObject:
   - component: {fileID: 2231301141665367410}
   - component: {fileID: 7507324913322571471}
   - component: {fileID: 1710277084658602146}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1400,7 +1400,7 @@ GameObject:
   - component: {fileID: 5102106782215532731}
   - component: {fileID: 5934841710214458956}
   - component: {fileID: 7774216029154353446}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -1506,7 +1506,7 @@ GameObject:
   - component: {fileID: 8211054140628134725}
   - component: {fileID: 4326693700747302985}
   - component: {fileID: 5861781870753876768}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1612,7 +1612,7 @@ GameObject:
   - component: {fileID: 260026812082769336}
   - component: {fileID: 2891322299083385239}
   - component: {fileID: 3830832961250228696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.089
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1720,7 +1720,7 @@ GameObject:
   - component: {fileID: 5552325835754498162}
   - component: {fileID: 7351038851523628404}
   - component: {fileID: 8111122968893396037}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.043
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1823,7 +1823,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1828347790273114066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1867,7 +1867,7 @@ GameObject:
   - component: {fileID: 3087196826043216028}
   - component: {fileID: 724459896181768238}
   - component: {fileID: 8702447712558829954}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.018
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1973,7 +1973,7 @@ GameObject:
   - component: {fileID: 8080502774027038936}
   - component: {fileID: 3882381411080217547}
   - component: {fileID: 4033456018207155895}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.021
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2079,7 +2079,7 @@ GameObject:
   - component: {fileID: 1934745281283210260}
   - component: {fileID: 7943598806230821134}
   - component: {fileID: 3301661724567309674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2185,7 +2185,7 @@ GameObject:
   - component: {fileID: 4356155250750148447}
   - component: {fileID: 7177524415858028818}
   - component: {fileID: 603741206568062345}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.156
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2291,7 +2291,7 @@ GameObject:
   - component: {fileID: 2295140340976591603}
   - component: {fileID: 8744193113794452869}
   - component: {fileID: 4279755770726945047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2364,7 +2364,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -2372,7 +2372,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &4279755770726945047
@@ -2462,7 +2462,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -2509,7 +2509,7 @@ GameObject:
   - component: {fileID: 8712071212916117860}
   - component: {fileID: 6035231405613069409}
   - component: {fileID: 507114520190410444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.087
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2617,7 +2617,7 @@ GameObject:
   - component: {fileID: 4274757109262084923}
   - component: {fileID: 8902219598029393144}
   - component: {fileID: 6415892100187002486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.045
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2723,7 +2723,7 @@ GameObject:
   - component: {fileID: 6104214154988117179}
   - component: {fileID: 193821824549541826}
   - component: {fileID: 5303869706785170281}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.150
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2829,7 +2829,7 @@ GameObject:
   - component: {fileID: 5629646579561567401}
   - component: {fileID: 5808195116134754920}
   - component: {fileID: 1232167545356890252}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.067
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2935,7 +2935,7 @@ GameObject:
   - component: {fileID: 673378087264961306}
   - component: {fileID: 4560572903636551959}
   - component: {fileID: 6780930457705075097}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.114
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3042,7 +3042,7 @@ GameObject:
   - component: {fileID: 5459855145434968780}
   - component: {fileID: 2663299289991486656}
   - component: {fileID: 1094510538332062641}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.106
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3150,7 +3150,7 @@ GameObject:
   - component: {fileID: 5296209784203504307}
   - component: {fileID: 7612872577718768988}
   - component: {fileID: 7287245918611780072}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.143
   m_TagString: MetalSurface
   m_Icon: {fileID: 0}
@@ -3256,7 +3256,7 @@ GameObject:
   - component: {fileID: 994614303748842673}
   - component: {fileID: 8825825498927012324}
   - component: {fileID: 5777684721617297020}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.102
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3364,7 +3364,7 @@ GameObject:
   - component: {fileID: 2533764720883844898}
   - component: {fileID: 1878496585384192868}
   - component: {fileID: 9020746939875554015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.051
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3470,7 +3470,7 @@ GameObject:
   - component: {fileID: 6651394181177690723}
   - component: {fileID: 3756689283166613868}
   - component: {fileID: 7040893281296939045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.019
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3576,7 +3576,7 @@ GameObject:
   - component: {fileID: 7728485192316768589}
   - component: {fileID: 7830431968725656924}
   - component: {fileID: 4476961766542803377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.104
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3684,7 +3684,7 @@ GameObject:
   - component: {fileID: 1026344128094649663}
   - component: {fileID: 1443445202917092909}
   - component: {fileID: 5812782776298566220}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.063
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3790,7 +3790,7 @@ GameObject:
   - component: {fileID: 6527775532950116138}
   - component: {fileID: 3611146968975901185}
   - component: {fileID: 9076122911430120992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.033
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3898,7 +3898,7 @@ GameObject:
   - component: {fileID: 7474924319508994632}
   - component: {fileID: 3904145229088238946}
   - component: {fileID: 2183795966905462279}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.095
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4006,7 +4006,7 @@ GameObject:
   - component: {fileID: 7887660927269078336}
   - component: {fileID: 7256939408822629115}
   - component: {fileID: 6522992698666319193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.053
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4112,7 +4112,7 @@ GameObject:
   - component: {fileID: 4295439321668450502}
   - component: {fileID: 6009894319251947209}
   - component: {fileID: 8996022807645720705}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.093
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4220,7 +4220,7 @@ GameObject:
   - component: {fileID: 4656760080626021198}
   - component: {fileID: 7231502843419457776}
   - component: {fileID: 6902625676900294991}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.147
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4327,7 +4327,7 @@ GameObject:
   - component: {fileID: 7201626392782592168}
   - component: {fileID: 1782390566299209209}
   - component: {fileID: 2510155000005715782}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.092
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4435,7 +4435,7 @@ GameObject:
   - component: {fileID: 8729299765087838816}
   - component: {fileID: 4741677466261175277}
   - component: {fileID: 3143421640834580322}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.134
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4541,7 +4541,7 @@ GameObject:
   - component: {fileID: 3161367985361131471}
   - component: {fileID: 4607973824400015460}
   - component: {fileID: 3016835745881427643}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.151
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4647,7 +4647,7 @@ GameObject:
   - component: {fileID: 1325676461516355675}
   - component: {fileID: 2238414891343264165}
   - component: {fileID: 6148041706054063114}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.068
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4753,7 +4753,7 @@ GameObject:
   - component: {fileID: 7162649372082203265}
   - component: {fileID: 7621410796504807887}
   - component: {fileID: 1833180658298803157}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.107
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4861,7 +4861,7 @@ GameObject:
   - component: {fileID: 6668919370826822813}
   - component: {fileID: 5655056861880528140}
   - component: {fileID: 3974105699509135414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.152
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4967,7 +4967,7 @@ GameObject:
   - component: {fileID: 1003031433484720655}
   - component: {fileID: 8276845144467675238}
   - component: {fileID: 4470645025129326106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.052
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5073,7 +5073,7 @@ GameObject:
   - component: {fileID: 6977405879785756842}
   - component: {fileID: 6354956936879946120}
   - component: {fileID: 4971668167932196518}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.070
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5179,7 +5179,7 @@ GameObject:
   - component: {fileID: 8845310275580663178}
   - component: {fileID: 8680552222837099236}
   - component: {fileID: 3207878258426202392}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.048
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5285,7 +5285,7 @@ GameObject:
   - component: {fileID: 3957983797876385879}
   - component: {fileID: 4650322099978483967}
   - component: {fileID: 7403959509765756845}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.060
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5391,7 +5391,7 @@ GameObject:
   - component: {fileID: 4630043622416958701}
   - component: {fileID: 9193777733274641827}
   - component: {fileID: 8571118000846051063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.030
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5499,7 +5499,7 @@ GameObject:
   - component: {fileID: 2428126932128827172}
   - component: {fileID: 1392451802499798334}
   - component: {fileID: 6691995699032994361}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.130
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5605,7 +5605,7 @@ GameObject:
   - component: {fileID: 6215289610754318395}
   - component: {fileID: 434806020859440098}
   - component: {fileID: 7835911018319361050}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.056
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5711,7 +5711,7 @@ GameObject:
   - component: {fileID: 5606159587007173477}
   - component: {fileID: 9105838152849771054}
   - component: {fileID: 541765227520993972}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.129
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5818,7 +5818,7 @@ GameObject:
   - component: {fileID: 4584209988638556327}
   - component: {fileID: 4287724142104639316}
   - component: {fileID: 2144861536573645651}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.091
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5926,7 +5926,7 @@ GameObject:
   - component: {fileID: 5558085241235843684}
   - component: {fileID: 4834478887962082549}
   - component: {fileID: 7543381953145866640}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.024
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6032,7 +6032,7 @@ GameObject:
   - component: {fileID: 7336808746644300826}
   - component: {fileID: 2144256616278624849}
   - component: {fileID: 5263615091226518918}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.090
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6140,7 +6140,7 @@ GameObject:
   - component: {fileID: 579669428881930657}
   - component: {fileID: 9022892223843909627}
   - component: {fileID: 5418907807508700934}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.031
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6248,7 +6248,7 @@ GameObject:
   - component: {fileID: 6095119564611450532}
   - component: {fileID: 7029530524242982259}
   - component: {fileID: 7926382924246575092}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.020
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6354,7 +6354,7 @@ GameObject:
   - component: {fileID: 2551578497337798677}
   - component: {fileID: 1200976003873953754}
   - component: {fileID: 1555543900306879696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.072
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6460,7 +6460,7 @@ GameObject:
   - component: {fileID: 5907966159008955295}
   - component: {fileID: 2864433351131675639}
   - component: {fileID: 7189351477950523376}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.124
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6568,7 +6568,7 @@ GameObject:
   - component: {fileID: 4659013340653771101}
   - component: {fileID: 1519119557665109864}
   - component: {fileID: 7263250215930438115}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.125
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6676,7 +6676,7 @@ GameObject:
   - component: {fileID: 4976399297563617555}
   - component: {fileID: 6923512217735137523}
   - component: {fileID: 4062002624065128244}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.061
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6782,7 +6782,7 @@ GameObject:
   - component: {fileID: 8665849520469619631}
   - component: {fileID: 739159161198065133}
   - component: {fileID: 2436235335148763516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.026
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6890,7 +6890,7 @@ GameObject:
   - component: {fileID: 5997971298013355396}
   - component: {fileID: 7900417205416971323}
   - component: {fileID: 2980556764263859975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.047
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6996,7 +6996,7 @@ GameObject:
   - component: {fileID: 5930831338802149831}
   - component: {fileID: 6871249597982483173}
   - component: {fileID: 4359301822851637216}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7102,7 +7102,7 @@ GameObject:
   - component: {fileID: 6635145559780093155}
   - component: {fileID: 8417964348431979556}
   - component: {fileID: 8823642952729616349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.027
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7210,7 +7210,7 @@ GameObject:
   - component: {fileID: 6699595197780561861}
   - component: {fileID: 1849379264956350213}
   - component: {fileID: 1128197385473457692}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.062
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7316,7 +7316,7 @@ GameObject:
   - component: {fileID: 937937430399933729}
   - component: {fileID: 2898307118787405373}
   - component: {fileID: 6174211657600832907}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.103
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7424,7 +7424,7 @@ GameObject:
   - component: {fileID: 528183801359260508}
   - component: {fileID: 518058052996130485}
   - component: {fileID: 5282513303960361746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.146
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7531,7 +7531,7 @@ GameObject:
   - component: {fileID: 8068462256295415554}
   - component: {fileID: 3230634213001670781}
   - component: {fileID: 1269238257401330390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.098
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7639,7 +7639,7 @@ GameObject:
   - component: {fileID: 7867805561050150829}
   - component: {fileID: 3078015910961182535}
   - component: {fileID: 6120924928523477030}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.136
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7745,7 +7745,7 @@ GameObject:
   - component: {fileID: 6600607839339975971}
   - component: {fileID: 8959509093080439742}
   - component: {fileID: 9074428285019645793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.069
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7851,7 +7851,7 @@ GameObject:
   - component: {fileID: 7515964384680621757}
   - component: {fileID: 2074669467120839275}
   - component: {fileID: 9101422151227386771}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.075
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7957,7 +7957,7 @@ GameObject:
   - component: {fileID: 3149461344023720150}
   - component: {fileID: 3427145756765333020}
   - component: {fileID: 8311556178441951219}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.155
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8063,7 +8063,7 @@ GameObject:
   - component: {fileID: 4982087941499968699}
   - component: {fileID: 7696903114515854240}
   - component: {fileID: 1287381891265764486}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.071
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8169,7 +8169,7 @@ GameObject:
   - component: {fileID: 4217357882161364229}
   - component: {fileID: 9203368413546241355}
   - component: {fileID: 70209875075774797}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.057
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8275,7 +8275,7 @@ GameObject:
   - component: {fileID: 7100854632528604063}
   - component: {fileID: 7645973041584271767}
   - component: {fileID: 1804006224419803063}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.138
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8380,7 +8380,7 @@ GameObject:
   - component: {fileID: 6041220578649354100}
   - component: {fileID: 2258868554294419848}
   - component: {fileID: 856959711220515158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8453,7 +8453,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -8461,7 +8461,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &856959711220515158
@@ -8551,7 +8551,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -8598,7 +8598,7 @@ GameObject:
   - component: {fileID: 583857576919915768}
   - component: {fileID: 4022118224235315512}
   - component: {fileID: 6544116038692799971}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.110
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8706,7 +8706,7 @@ GameObject:
   - component: {fileID: 7674215471253735888}
   - component: {fileID: 3776267595582071742}
   - component: {fileID: 848400404085074765}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.050
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8812,7 +8812,7 @@ GameObject:
   - component: {fileID: 1786515307282079966}
   - component: {fileID: 2410584572023727715}
   - component: {fileID: 3735358333526843497}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.017
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8918,7 +8918,7 @@ GameObject:
   - component: {fileID: 4281242685235152495}
   - component: {fileID: 8512231004777945545}
   - component: {fileID: 3343360526439917106}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.059
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9024,7 +9024,7 @@ GameObject:
   - component: {fileID: 3872219177594814639}
   - component: {fileID: 6213228694690650401}
   - component: {fileID: 8481418712766152832}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.079
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9130,7 +9130,7 @@ GameObject:
   - component: {fileID: 4298394523496514386}
   - component: {fileID: 8338995853279792368}
   - component: {fileID: 9124331405799938951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.135
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9236,7 +9236,7 @@ GameObject:
   - component: {fileID: 5175490004920205735}
   - component: {fileID: 3773652793315487555}
   - component: {fileID: 1509691558652411129}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9342,7 +9342,7 @@ GameObject:
   - component: {fileID: 7267932172191099023}
   - component: {fileID: 1535316250814890704}
   - component: {fileID: 6982134004706232417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.039
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9450,7 +9450,7 @@ GameObject:
   - component: {fileID: 3567384999729984327}
   - component: {fileID: 8967626488678678847}
   - component: {fileID: 6197742612854141917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.094
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9558,7 +9558,7 @@ GameObject:
   - component: {fileID: 9043642459969366982}
   - component: {fileID: 2543636633528070896}
   - component: {fileID: 7866784960825797189}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.055
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9664,7 +9664,7 @@ GameObject:
   - component: {fileID: 2621686840091123312}
   - component: {fileID: 5628326601206947638}
   - component: {fileID: 8383078163297385672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.113
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9771,7 +9771,7 @@ GameObject:
   - component: {fileID: 38276182126257089}
   - component: {fileID: 138853952511582356}
   - component: {fileID: 2052488115153956661}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9844,7 +9844,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -9852,7 +9852,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &2052488115153956661
@@ -9942,7 +9942,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -9989,7 +9989,7 @@ GameObject:
   - component: {fileID: 6495184001826643504}
   - component: {fileID: 1738837316384572771}
   - component: {fileID: 5986744444691982550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10095,7 +10095,7 @@ GameObject:
   - component: {fileID: 1353712172157041121}
   - component: {fileID: 3041469759503940860}
   - component: {fileID: 1878572243326181586}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.042
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10201,7 +10201,7 @@ GameObject:
   - component: {fileID: 3376967285406050665}
   - component: {fileID: 8371169882779755193}
   - component: {fileID: 3764862950046955624}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.120
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10309,7 +10309,7 @@ GameObject:
   - component: {fileID: 8280045808169369117}
   - component: {fileID: 5370730222759648132}
   - component: {fileID: 2295175265226934542}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.137
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10415,7 +10415,7 @@ GameObject:
   - component: {fileID: 933484996209230445}
   - component: {fileID: 3405073432057812138}
   - component: {fileID: 8109823873325065102}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.085
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10523,7 +10523,7 @@ GameObject:
   - component: {fileID: 1815669744304263730}
   - component: {fileID: 181956236262084329}
   - component: {fileID: 1647834908416800373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.073
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10629,7 +10629,7 @@ GameObject:
   - component: {fileID: 4335146729849222309}
   - component: {fileID: 5794834785681416184}
   - component: {fileID: 8394746817598754089}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.118
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10737,7 +10737,7 @@ GameObject:
   - component: {fileID: 2116717858819876181}
   - component: {fileID: 7522128088320748094}
   - component: {fileID: 7933097920895914908}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.122
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10845,7 +10845,7 @@ GameObject:
   - component: {fileID: 4172737570520245310}
   - component: {fileID: 1288360717924707017}
   - component: {fileID: 5420270764321312263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.119
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10953,7 +10953,7 @@ GameObject:
   - component: {fileID: 6005303690025350623}
   - component: {fileID: 1261401907000694623}
   - component: {fileID: 181662973620112193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.096
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11061,7 +11061,7 @@ GameObject:
   - component: {fileID: 5122056003948689285}
   - component: {fileID: 5533796167623879641}
   - component: {fileID: 6975631154068603024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.100
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11169,7 +11169,7 @@ GameObject:
   - component: {fileID: 4808882620502025890}
   - component: {fileID: 3324058325748795855}
   - component: {fileID: 2368685445910644691}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.111
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11277,7 +11277,7 @@ GameObject:
   - component: {fileID: 6597629775828154883}
   - component: {fileID: 2991176531414713742}
   - component: {fileID: 3976687087936796113}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.127
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11384,7 +11384,7 @@ GameObject:
   - component: {fileID: 8699689352724192606}
   - component: {fileID: 7988576052447680983}
   - component: {fileID: 1099956500062739776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11457,7 +11457,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -11465,7 +11465,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &1099956500062739776
@@ -11555,7 +11555,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -11602,7 +11602,7 @@ GameObject:
   - component: {fileID: 2389989818867617262}
   - component: {fileID: 3559107022986589874}
   - component: {fileID: 608672167065588737}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.139
   m_TagString: MetalSurface
   m_Icon: {fileID: 0}
@@ -11708,7 +11708,7 @@ GameObject:
   - component: {fileID: 6318629374062940787}
   - component: {fileID: 3663241483905228578}
   - component: {fileID: 6592995805515782807}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.108
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11816,7 +11816,7 @@ GameObject:
   - component: {fileID: 7042632783351500792}
   - component: {fileID: 507331431320962126}
   - component: {fileID: 3553668826560750373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11922,7 +11922,7 @@ GameObject:
   - component: {fileID: 7448025453097859296}
   - component: {fileID: 5330153774024598743}
   - component: {fileID: 8697094141731557060}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.082
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12028,7 +12028,7 @@ GameObject:
   - component: {fileID: 2645478511408974208}
   - component: {fileID: 7322519135242009291}
   - component: {fileID: 8951789335542499574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.112
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12136,7 +12136,7 @@ GameObject:
   - component: {fileID: 1657903794106242629}
   - component: {fileID: 7872821187865670934}
   - component: {fileID: 942982179228373266}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.036
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12244,7 +12244,7 @@ GameObject:
   - component: {fileID: 7555612537065925843}
   - component: {fileID: 6236451177015885162}
   - component: {fileID: 1626049770971999827}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.037
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12352,7 +12352,7 @@ GameObject:
   - component: {fileID: 5879301855789989596}
   - component: {fileID: 7861041390756459786}
   - component: {fileID: 2782192255917801932}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.044
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12458,7 +12458,7 @@ GameObject:
   - component: {fileID: 4868466294757776510}
   - component: {fileID: 735277503338367753}
   - component: {fileID: 2027287042093968644}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.054
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12564,7 +12564,7 @@ GameObject:
   - component: {fileID: 9130262128577579600}
   - component: {fileID: 1441408881148979448}
   - component: {fileID: 5165649227029627702}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.077
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12669,7 +12669,7 @@ GameObject:
   - component: {fileID: 4333697560224824671}
   - component: {fileID: 1529497492169283304}
   - component: {fileID: 1023818503855019677}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12742,7 +12742,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -12750,7 +12750,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &1023818503855019677
@@ -12840,7 +12840,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -12887,7 +12887,7 @@ GameObject:
   - component: {fileID: 6244045970259162874}
   - component: {fileID: 7644141377660519406}
   - component: {fileID: 5254657603611726529}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.058
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12992,7 +12992,7 @@ GameObject:
   - component: {fileID: 7659847077968894785}
   - component: {fileID: 6000989668001995361}
   - component: {fileID: 8480398373311667399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13065,7 +13065,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -13073,7 +13073,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &8480398373311667399
@@ -13163,7 +13163,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -13210,7 +13210,7 @@ GameObject:
   - component: {fileID: 5168531056004409762}
   - component: {fileID: 8774620499852711569}
   - component: {fileID: 6433293321694871043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.123
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13318,7 +13318,7 @@ GameObject:
   - component: {fileID: 1752989020987409467}
   - component: {fileID: 5315899458838014832}
   - component: {fileID: 2278703161979582247}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13424,7 +13424,7 @@ GameObject:
   - component: {fileID: 4937123740356768361}
   - component: {fileID: 3547630106488622022}
   - component: {fileID: 5089783826558658155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.065
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13530,7 +13530,7 @@ GameObject:
   - component: {fileID: 1478613976991403032}
   - component: {fileID: 3507062312744454533}
   - component: {fileID: 2327987243632071885}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13636,7 +13636,7 @@ GameObject:
   - component: {fileID: 4989508828967842187}
   - component: {fileID: 5385685940262146948}
   - component: {fileID: 5400914859480434255}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.133
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13742,7 +13742,7 @@ GameObject:
   - component: {fileID: 5169527352381651779}
   - component: {fileID: 4919047949059078114}
   - component: {fileID: 981497742594530732}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.080
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13848,7 +13848,7 @@ GameObject:
   - component: {fileID: 2607983306908707193}
   - component: {fileID: 3746992111494714340}
   - component: {fileID: 4223432190367857144}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.115
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13956,7 +13956,7 @@ GameObject:
   - component: {fileID: 4582037442404439994}
   - component: {fileID: 3385075296277121266}
   - component: {fileID: 452069976089634762}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14061,7 +14061,7 @@ GameObject:
   - component: {fileID: 2053787257655528786}
   - component: {fileID: 2313655305387365459}
   - component: {fileID: 7706471740065497510}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14134,7 +14134,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -14142,7 +14142,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &7706471740065497510
@@ -14232,7 +14232,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -14279,7 +14279,7 @@ GameObject:
   - component: {fileID: 966377645547201710}
   - component: {fileID: 9163903425224474791}
   - component: {fileID: 2866933116699453817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.049
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14385,7 +14385,7 @@ GameObject:
   - component: {fileID: 4621713325951073177}
   - component: {fileID: 8433294101901731712}
   - component: {fileID: 161846258071261693}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.041
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14491,7 +14491,7 @@ GameObject:
   - component: {fileID: 8007149130009914630}
   - component: {fileID: 3717368946872082503}
   - component: {fileID: 1023867896146994992}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.154
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14597,7 +14597,7 @@ GameObject:
   - component: {fileID: 6787868077099231436}
   - component: {fileID: 3348197926865997582}
   - component: {fileID: 2354206816889732785}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.144
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14704,7 +14704,7 @@ GameObject:
   - component: {fileID: 3220394014867583858}
   - component: {fileID: 2322950682980399619}
   - component: {fileID: 1460006349497954195}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.099
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14811,7 +14811,7 @@ GameObject:
   - component: {fileID: 6354264321548017795}
   - component: {fileID: 3873433093578882013}
   - component: {fileID: 8903312858026985173}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.076
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14917,7 +14917,7 @@ GameObject:
   - component: {fileID: 3122097213392957101}
   - component: {fileID: 1644925147207139356}
   - component: {fileID: 9030437422024762556}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.131
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15023,7 +15023,7 @@ GameObject:
   - component: {fileID: 2064331150339848971}
   - component: {fileID: 4727078258300290552}
   - component: {fileID: 5238096083021828444}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.022
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15129,7 +15129,7 @@ GameObject:
   - component: {fileID: 4099245634733464013}
   - component: {fileID: 8582664357179997005}
   - component: {fileID: 3445204148065530734}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15235,7 +15235,7 @@ GameObject:
   - component: {fileID: 8021789921882798594}
   - component: {fileID: 4278149400690753862}
   - component: {fileID: 7739108032992002884}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.064
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15341,7 +15341,7 @@ GameObject:
   - component: {fileID: 829725057896580608}
   - component: {fileID: 8850852676191403772}
   - component: {fileID: 7932554866769103323}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.029
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15449,7 +15449,7 @@ GameObject:
   - component: {fileID: 1876978378658204365}
   - component: {fileID: 8002011774011303585}
   - component: {fileID: 2806978374758662468}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.074
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15555,7 +15555,7 @@ GameObject:
   - component: {fileID: 3080885722160064020}
   - component: {fileID: 3615740462025551984}
   - component: {fileID: 2982668031096627003}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.101
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15663,7 +15663,7 @@ GameObject:
   - component: {fileID: 438601532537883427}
   - component: {fileID: 8513755243950335460}
   - component: {fileID: 7757634769779424317}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.028
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15771,7 +15771,7 @@ GameObject:
   - component: {fileID: 1540536206130206464}
   - component: {fileID: 7804773929656593629}
   - component: {fileID: 16263706838150161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.145
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15878,7 +15878,7 @@ GameObject:
   - component: {fileID: 1445401982123048969}
   - component: {fileID: 5751435919704900305}
   - component: {fileID: 8234432781367629301}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.035
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15986,7 +15986,7 @@ GameObject:
   - component: {fileID: 819110855357622022}
   - component: {fileID: 1851390747927849357}
   - component: {fileID: 400036875266853131}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.046
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16092,7 +16092,7 @@ GameObject:
   - component: {fileID: 5512664695538850611}
   - component: {fileID: 8159139331511312165}
   - component: {fileID: 8950834746489830385}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.153
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16198,7 +16198,7 @@ GameObject:
   - component: {fileID: 2823506444558245964}
   - component: {fileID: 2728938630216110548}
   - component: {fileID: 2075785205999894960}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.016
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16304,7 +16304,7 @@ GameObject:
   - component: {fileID: 9139384999148492336}
   - component: {fileID: 2212434833929587162}
   - component: {fileID: 4567958466506637775}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.117
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16412,7 +16412,7 @@ GameObject:
   - component: {fileID: 8464902703324344669}
   - component: {fileID: 3921960590968744734}
   - component: {fileID: 8756031140188193626}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16515,7 +16515,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9096729045871486043}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 4Tunnels
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16548,7 +16548,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 795895286156668045}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16739,7 +16739,7 @@ GameObject:
   - component: {fileID: 1494273248605031978}
   - component: {fileID: 629980443317220026}
   - component: {fileID: 7664185533766513373}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16812,7 +16812,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -16820,7 +16820,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &7664185533766513373
@@ -16910,7 +16910,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -16956,7 +16956,7 @@ GameObject:
   - component: {fileID: 1418354108597221831}
   - component: {fileID: 1449297593263316318}
   - component: {fileID: 1693652776813951500}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17029,7 +17029,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
@@ -17037,7 +17037,7 @@ Light:
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
-  m_UseViewFrustumForShadowCasterCull: 1
+  m_UseViewFrustumForShadowCasterCull: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
 --- !u!114 &1693652776813951500
@@ -17127,7 +17127,7 @@ MonoBehaviour:
   m_PenumbraTint: 0
   m_NormalBias: 0.75
   m_SlopeBias: 0.5
-  m_ShadowUpdateMode: 0
+  m_ShadowUpdateMode: 1
   m_AlwaysDrawDynamicShadows: 0
   m_UpdateShadowOnLightMovement: 0
   m_CachedShadowTranslationThreshold: 0.01
@@ -17173,7 +17173,7 @@ GameObject:
   - component: {fileID: 408678623845427177}
   - component: {fileID: 1912462374133475072}
   - component: {fileID: 5922223236603586155}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17391,7 +17391,7 @@ GameObject:
   - component: {fileID: 7102846641401948119}
   - component: {fileID: 1753352785376818737}
   - component: {fileID: 7150384019437191054}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.128
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17499,7 +17499,7 @@ GameObject:
   - component: {fileID: 1573778892870759858}
   - component: {fileID: 7997137964178142703}
   - component: {fileID: 4226596382427774407}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.149
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17605,7 +17605,7 @@ GameObject:
   - component: {fileID: 2138579265410886550}
   - component: {fileID: 4980815797044508467}
   - component: {fileID: 87681845273448903}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.078
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17711,7 +17711,7 @@ GameObject:
   - component: {fileID: 470372837974851425}
   - component: {fileID: 3363920733124240895}
   - component: {fileID: 4612997057241061300}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.126
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17819,7 +17819,7 @@ GameObject:
   - component: {fileID: 3875683842406490926}
   - component: {fileID: 3420583201434630213}
   - component: {fileID: 763317267891215917}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.032
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17927,7 +17927,7 @@ GameObject:
   - component: {fileID: 162747882501644497}
   - component: {fileID: 2108870523172638678}
   - component: {fileID: 6430036761079628803}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18033,7 +18033,7 @@ GameObject:
   - component: {fileID: 7487509139846573969}
   - component: {fileID: 1561528612799539455}
   - component: {fileID: 2342319110312870516}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.121
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18141,7 +18141,7 @@ GameObject:
   - component: {fileID: 3958801022341674901}
   - component: {fileID: 4433194510797885317}
   - component: {fileID: 5868431715110359657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.132
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18247,7 +18247,7 @@ GameObject:
   - component: {fileID: 3977494498313295311}
   - component: {fileID: 7433309842357987270}
   - component: {fileID: 3677787270234385674}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.140
   m_TagString: MetalSurface
   m_Icon: {fileID: 0}
@@ -18353,7 +18353,7 @@ GameObject:
   - component: {fileID: 325363740541113901}
   - component: {fileID: 7235673082803715747}
   - component: {fileID: 4080887391042834418}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.081
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18459,7 +18459,7 @@ GameObject:
   - component: {fileID: 1582707010800709699}
   - component: {fileID: 4349998749169239538}
   - component: {fileID: 849311870058069111}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.088
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18567,7 +18567,7 @@ GameObject:
   - component: {fileID: 9198151047142898556}
   - component: {fileID: 6800315688902994127}
   - component: {fileID: 3014028124188993985}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.141
   m_TagString: MetalSurface
   m_Icon: {fileID: 0}
@@ -18673,7 +18673,7 @@ GameObject:
   - component: {fileID: 8258028482573629948}
   - component: {fileID: 953004670171024770}
   - component: {fileID: 7144854877012004390}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18779,7 +18779,7 @@ GameObject:
   - component: {fileID: 8036280529931327913}
   - component: {fileID: 1530017199462139349}
   - component: {fileID: 118366937826409238}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.086
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18887,7 +18887,7 @@ GameObject:
   - component: {fileID: 7060635530634431810}
   - component: {fileID: 906296796107417497}
   - component: {fileID: 7144030147060346154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.083
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18994,7 +18994,7 @@ GameObject:
   - component: {fileID: 2985093085938389113}
   - component: {fileID: 6515703730954382723}
   - component: {fileID: 5325169088510053007}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.038
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19102,7 +19102,7 @@ GameObject:
   - component: {fileID: 7962134161111697537}
   - component: {fileID: 5970321505539911597}
   - component: {fileID: 7172684362936219228}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.148
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19208,7 +19208,7 @@ GameObject:
   - component: {fileID: 4040049097764857619}
   - component: {fileID: 768562983972972420}
   - component: {fileID: 1009074080206904491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.084
   m_TagString: Untagged
   m_Icon: {fileID: 0}
