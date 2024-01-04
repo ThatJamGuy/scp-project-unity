@@ -3,33 +3,57 @@ using UnityEngine;
 
 public class RoomRenderer : MonoBehaviour
 {
-    public float radius = 10f; // Set the radius
-    public LayerMask renderLayer; // Set the layer to filter objects
+    public float cullingRange = 50f;
 
-    private Renderer[] renderers;
+    private Camera mainCamera;
 
     private void Start()
     {
-        // Find all renderers on the specified layer
-        renderers = FindObjectsOfType<Renderer>();
+        mainCamera = Camera.main;
     }
 
     private void Update()
     {
-        // Find all renderers on the specified layer
-        renderers = FindObjectsOfType<Renderer>();
-
-        foreach (Renderer renderer in renderers)
+        if (mainCamera == null)
         {
-            // Check if the object is on the specified layer
-            if (((1 << renderer.gameObject.layer) & renderLayer) != 0)
-            {
-                // Calculate the distance between the player and the object
-                float distance = Vector3.Distance(transform.position, renderer.transform.position);
+            Debug.LogError("Main camera not found. Please tag your camera as 'MainCamera'.");
+            return;
+        }
 
-                // Toggle renderer based on distance
-                renderer.enabled = distance <= radius;
+        // Perform frustum culling for MeshRenderers
+        MeshRenderer[] renderers = FindObjectsOfType<MeshRenderer>();
+        foreach (MeshRenderer renderer in renderers)
+        {
+            if (IsRendererVisibleByCamera(renderer))
+            {
+                renderer.enabled = true;
+            }
+            else
+            {
+                renderer.enabled = false;
             }
         }
+
+        // Perform distance-based culling for lights using spatial partitioning
+        Light[] lights = FindObjectsOfType<Light>();
+        foreach (Light light in lights)
+        {
+            float distanceToLight = Vector3.Distance(mainCamera.transform.position, light.transform.position);
+
+            if (distanceToLight <= cullingRange)
+            {
+                light.enabled = true;
+            }
+            else
+            {
+                light.enabled = false;
+            }
+        }
+    }
+
+    private bool IsRendererVisibleByCamera(Renderer renderer)
+    {
+        // Check if the renderer is within the camera's view frustum
+        return GeometryUtility.TestPlanesAABB(GeometryUtility.CalculateFrustumPlanes(mainCamera), renderer.bounds);
     }
 }
