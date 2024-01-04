@@ -62,31 +62,6 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f61a12ff8b651d24bb750c7d6973c0f8
-    m_Address: Assets/Resources_moved/Room/Room2Closets.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c9a54066afa3645448d054bd094a565f
-    m_Address: Assets/Resources_moved/Room/Room3Pit.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c3d4776548d45194e9f810d5f1fe908d
-    m_Address: Assets/Resources_moved/Room/4Tunnels.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b1b0153e32c7ec841945ba2421b13aef
-    m_Address: Room/MachineRoom
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b3e9d528e6fdfea488a0f45ef24f57c8
-    m_Address: Room/Room2Ccont
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 57633944e0df588498e95a54f34f7a24, type: 2}
   m_SchemaSet:

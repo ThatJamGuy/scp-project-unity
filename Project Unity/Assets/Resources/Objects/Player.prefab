@@ -78,7 +78,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_Intensity: 1.1430417
+  m_Intensity: 0.39788735
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 14.363886
+  m_Intensity: 5
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -237,7 +237,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 1
+  useVolumetric: 0
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -263,7 +263,6 @@ GameObject:
   - component: {fileID: 5453990857251292033}
   - component: {fileID: 2760964349743856747}
   - component: {fileID: 3650356279168480053}
-  - component: {fileID: 8136994926648751405}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -377,22 +376,6 @@ MonoBehaviour:
   canvas: {fileID: 0}
   interactDisplay: {fileID: 0}
   currentInteractible: {fileID: 0}
---- !u!114 &8136994926648751405
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856438823863147957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a8d54b9f7ed284d9501ad236cacbd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  radius: 30
-  renderLayer:
-    serializedVersion: 2
-    m_Bits: 64
 --- !u!1 &5862974486515880673
 GameObject:
   m_ObjectHideFlags: 0
@@ -489,15 +472,23 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2760964349743856747}
   normalWalkSFX:
-  - {fileID: 8300000, guid: 2731d2b8eb686554e927ba06e67af53e, type: 3}
-  - {fileID: 8300000, guid: bb842037e4c608a4080a9eee4b13157e, type: 3}
-  - {fileID: 8300000, guid: 993d853f818b69541a248e6c92f70965, type: 3}
-  - {fileID: 8300000, guid: 9e7c8719b26f7074a9a54dea8efb5901, type: 3}
+  - {fileID: 8300000, guid: 52748857b6e36c84fa825bb0e9f7fc94, type: 3}
+  - {fileID: 8300000, guid: 3e34c5055464bca4e8e31526ae399791, type: 3}
+  - {fileID: 8300000, guid: 58b27f167fed4994a8daf43cc4200c85, type: 3}
+  - {fileID: 8300000, guid: a2b2ef811737aa74ba633a558e0254c7, type: 3}
+  - {fileID: 8300000, guid: ddff72696c171ad409bab34dad0ddd15, type: 3}
+  - {fileID: 8300000, guid: 6c7a38f399fc37e4ab4410e05682d7fa, type: 3}
+  - {fileID: 8300000, guid: 73b1f0c8c23072640af412b806c23aeb, type: 3}
+  - {fileID: 8300000, guid: 8760962da4a7e26449edb4396620a09e, type: 3}
   normalRunSFX:
-  - {fileID: 8300000, guid: df3bfa616911d24458a3fc40a11d6c81, type: 3}
-  - {fileID: 8300000, guid: 1aa9c7ebf70fa5c419a3cf0ce8969cf3, type: 3}
-  - {fileID: 8300000, guid: c6b5e7fbe50a6de4e80764ac6522b153, type: 3}
-  - {fileID: 8300000, guid: 97abe6c4a62567244999db6f974a7bcb, type: 3}
+  - {fileID: 8300000, guid: daa3caea1b6940340a0f4949713f3645, type: 3}
+  - {fileID: 8300000, guid: 32d2b00c9c39c594da8bd9cc099e0e33, type: 3}
+  - {fileID: 8300000, guid: 720a62beda361e349a32643323dd98c2, type: 3}
+  - {fileID: 8300000, guid: 50dc75eff7a7e9446ab992f0179c41b4, type: 3}
+  - {fileID: 8300000, guid: 3b4c14b2253d3ca4b9853a4e66bb9ea3, type: 3}
+  - {fileID: 8300000, guid: ab606be29632afc4dbeb042b408c9970, type: 3}
+  - {fileID: 8300000, guid: 7b203635175fc574fa6346c39e524580, type: 3}
+  - {fileID: 8300000, guid: 41365d8ccf73e6e49b90076fc30d9fe7, type: 3}
   metalWalkSFX:
   - {fileID: 8300000, guid: 599c71afa5b4ddf4286e101d62c9dd84, type: 3}
   - {fileID: 8300000, guid: 7ab65faf6da3df34fb284b2afd26070d, type: 3}
