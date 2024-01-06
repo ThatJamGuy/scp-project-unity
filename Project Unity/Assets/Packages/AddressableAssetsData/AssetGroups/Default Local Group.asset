@@ -62,6 +62,46 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 623e85c9088e96a469977b6f0b7b76ce
+    m_Address: Assets/Prefabs/Rooms/Room2_4_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa930b58e0af5448b8a411569e27776
+    m_Address: Assets/Prefabs/Rooms/Room4_2_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a05cdaf71f434a4995899d3f793dc7b
+    m_Address: Assets/Prefabs/Rooms/Endroom_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5fc2a2172f6987747a371246d8939df1
+    m_Address: Assets/Prefabs/Rooms/Room2C_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2f6663ffbcdf7f4ca3872ae9a8c95a8
+    m_Address: Assets/Prefabs/Rooms/Room3_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7740c3055bedb754c8c1fba66531667e
+    m_Address: Assets/Prefabs/Rooms/Room1Archive.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0180750c83dd602419037d7873a6c24e
+    m_Address: Assets/Prefabs/Rooms/RoomPJ_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 413dbabbd5af5a1468316ffe7f1cdaeb
+    m_Address: Assets/Prefabs/Rooms/173.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 57633944e0df588498e95a54f34f7a24, type: 2}
   m_SchemaSet:

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233669818f9454f47834b8100df08974, type: 3}
+  m_Name: BreachMap
+  m_EditorClassIdentifier: 
+  zones:
+  - name: LCZ
+    traversingExistingPathsCost: 0
+    roomCatalogue:
+    - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
+    - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
+    - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
+    - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
+    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
+    - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
+    - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
+    - room: {fileID: 11400000, guid: de382d4d29052eb4c8a58550a9da2b9c, type: 2}
+    - room: {fileID: 11400000, guid: 7a576756ece36b14ea322ba005d16106, type: 2}
+    - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
+    mustSpawnLocations: []
+    exitLocations: []
+    pathLocation: []
+  - name: HCZ
+    traversingExistingPathsCost: 0
+    roomCatalogue:
+    - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
+    - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
+    - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
+    - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
+    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
+    - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
+    mustSpawnLocations: []
+    exitLocations: []
+    pathLocation: []
+  - name: EZ
+    traversingExistingPathsCost: 0
+    roomCatalogue:
+    - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
+    - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
+    - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
+    - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
+    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
+    - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
+    mustSpawnLocations: []
+    exitLocations: []
+    pathLocation: []
+  connections:
+  - fromZone: HCZ
+    toZone: LCZ
+    maxAmountOfConnections: 2
+  - fromZone: HCZ
+    toZone: EZ
+    maxAmountOfConnections: 1
+  zoneLayout:
+    gridSize: {x: 3, y: 3}
+    cellSize: {x: 64, y: 16}
+    cells:
+    - row:
+      - EZ
+      - 
+      - 
+    - row:
+      - HCZ
+      - 
+      - 
+    - row:
+      - LCZ
+      - 
+      - 
+  gridSizeX: 5
+  spacing: 20.5

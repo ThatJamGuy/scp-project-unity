@@ -1,8 +1,12 @@
+using System.Collections;
 using UnityEngine;
 
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
 {
+    public bool forceTP;
+    public Transform forceTPLocation;
+
     [Header("Player Speeds")]
     [SerializeField] private float walkSpeed = 5.0f;
     [SerializeField] private float sprintSpeed = 10.0f;
@@ -37,6 +41,9 @@ public class Player : MonoBehaviour
 
         originalYPos = playerCamera.transform.localPosition.y;
         originalCameraPosition = playerCamera.transform.localPosition;
+
+        if (forceTP)
+            StartCoroutine(ForceTP());
     }
 
     void Update()
@@ -93,7 +100,7 @@ public class Player : MonoBehaviour
         if (Mathf.Abs(moveDirection.x) > 0.01f || Mathf.Abs(moveDirection.z) > 0.01f)
         {
             if (isSprinting)
-                bobbingSpeed = 10;
+                bobbingSpeed = 15;
             else
                 bobbingSpeed = 7;
 
@@ -122,5 +129,13 @@ public class Player : MonoBehaviour
                 Time.deltaTime * bobbingSpeed
             );
         }
+    }
+
+    IEnumerator ForceTP()
+    {
+        yield return new WaitForSeconds(1);
+        forceTPLocation = GameObject.Find("ForceTPLocation").transform;
+        transform.position = forceTPLocation.position;
+        StopCoroutine(ForceTP());
     }
 }

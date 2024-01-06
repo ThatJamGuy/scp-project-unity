@@ -14,6 +14,7 @@ public class Door : MonoBehaviour
 
     [Header("Door Settings")]
     public bool isOpen;
+    public bool isLocked;
     public float regularOpenCloseSpeed;
     public float regularOpenCloseDistance;
 
@@ -86,11 +87,36 @@ public class Door : MonoBehaviour
     {
         isOpening = true;
 
-        while (door.transform.position != targetPosition)
+        // Pre-cache the initial position
+        var startPos = door.transform.position;
+
+        // Calculate the distance between the start and target positions
+        var distance = Vector3.Distance(startPos, targetPosition);
+
+        // Calculate the duration of the animation based on the distance and speed
+        var duration = distance / speed;
+
+        var timePassed = 0f;
+        while (timePassed < duration)
         {
-            door.transform.position = Vector3.MoveTowards(door.transform.position, targetPosition, speed * Time.deltaTime);
+            // This factor moves linear from 0 to 1
+            var factor = timePassed / duration;
+
+            // Add ease-in and ease-out using Mathf.SmoothStep
+            factor = Mathf.SmoothStep(0, 1, factor);
+
+            // Use Lerp to interpolate between the start and target positions
+            door.transform.position = Vector3.Lerp(startPos, targetPosition, factor);
+
+            // Yield execution to the next frame
             yield return null;
+
+            // Increase timePassed by the time passed since the last frame
+            timePassed += Time.deltaTime;
         }
+
+        // Ensure the final position is accurate
+        door.transform.position = targetPosition;
 
         isOpening = false;
     }
