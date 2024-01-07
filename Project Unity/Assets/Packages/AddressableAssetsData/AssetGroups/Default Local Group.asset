@@ -102,6 +102,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293a81f4a55f67441b91b58d24c94ac5
+    m_Address: Assets/Prefabs/Rooms/Room2Closets_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cef666394ac52dd4281a0c1367bfd148
+    m_Address: Assets/Prefabs/Rooms/Lockroom3_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 57633944e0df588498e95a54f34f7a24, type: 2}
   m_SchemaSet:

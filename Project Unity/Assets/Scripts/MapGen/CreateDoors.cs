@@ -1,32 +1,68 @@
-using LevelGenerator.Scripts;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class CreateDoors : MonoBehaviour
 {
-    [SerializeField] GameObject doorPrefab;
+    public GameObject prefab;
+    public float cellSize;
+    public int gridWidth;
+    public int gridHeight;
 
     private void Start()
     {
-        StartCoroutine(AutoDoor());
+        GenerateGrid();
     }
 
-    [ContextMenu("Do The Thing")]
-    public void DoTheThing()
+    private void GenerateGrid()
     {
-        Exits[] allExits = GameObject.FindObjectsOfType<Exits>();
-
-        foreach (Exits exit in allExits)
+        for (int y = 0; y < gridHeight; y++)
         {
-            // Instantiate the doorPrefab at the exit's position
-            GameObject door = Instantiate(doorPrefab, exit.transform.position, exit.transform.rotation);
+            for (int x = 0; x < gridWidth; x++)
+            {
+                var cellCenter = new Vector3(x * cellSize, 0, y * cellSize);
+                var cell = new Cell(cellCenter, cellSize);
+                PlacePrefabOnCellEdges(cell);
+            }
         }
     }
 
-    IEnumerator AutoDoor()
+    private void PlacePrefabOnCellEdges(Cell cell)
     {
-        yield return new WaitForSeconds(1);
-        DoTheThing();
+        var halfSize = cell.size / 2;
+        var directions = new Vector3[]
+        {
+           new Vector3(-1, 0, 0), // Left
+           new Vector3(1, 0, 0), // Right
+           new Vector3(0, 0, -1), // Front
+           new Vector3(0, 0, 1)  // Back
+        };
+
+        foreach (var direction in directions)
+        {
+            var position = cell.center + direction * halfSize;
+            var rotation = Quaternion.LookRotation(direction);
+
+            // Adjust the rotation
+            rotation *= Quaternion.Euler(0, 90, 0);
+
+            // Store the result of Physics.Raycast in a RaycastHit variable
+            RaycastHit hit;
+            if (!Physics.Raycast(position, direction, out hit, cell.size))
+            {
+                // No object at the position, safe to instantiate
+                Instantiate(prefab, position, rotation);
+            }
+        }
+    }
+}
+
+public class Cell
+{
+    public Vector3 center;
+    public float size;
+
+    public Cell(Vector3 center, float size)
+    {
+        this.center = center;
+        this.size = size;
     }
 }

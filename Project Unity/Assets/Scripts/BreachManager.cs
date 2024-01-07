@@ -13,7 +13,7 @@ public class BreachManager : MonoBehaviour
 
     private void Start()
     {
-        StartBreach();
+        //StartBreach();
         StartCoroutine(Ambience());
     }
 

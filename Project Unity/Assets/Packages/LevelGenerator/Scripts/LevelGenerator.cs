@@ -22,7 +22,7 @@ namespace LevelGenerator.Scripts
         /// <summary>
         /// CreateDoors script to be called to create doors
         /// </summary>
-        public CreateDoors CreateDoors;
+        //public CreateDoors CreateDoors;
 
         /// <summary>
         /// Maximum level size measured in sections
