@@ -2,6 +2,11 @@
 Just my attempt at remaking SCP:CB in the Unity Engine. Built on Unity 2022.3.15f1 HDRP.
 Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which recently recieved a new developer earlier this year.
 
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/3830355b-17fc-4b7a-bf38-ca54f7860fdf)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/d6c145c7-fda6-48ee-8ba7-cfbaaa89ad5d)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/466fe682-3774-4213-8074-0212bcc55312)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/b1d5d6d4-2846-402a-b68c-e5cb040408f0)
+
 # Features
 - Completelly random map generation, instead of being pattern based. Using GasimoCodes MapGen system for this
 - (Hopefully) Better written code for easier modifications
