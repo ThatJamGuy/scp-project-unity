@@ -15,8 +15,11 @@ MonoBehaviour:
   roomName: genericRoomName
   shape: 0
   pathFinderTravelCost: 2
-  large: 0
-  expandRelativeToOrigin: []
+  large: 1
+  expandRelativeToOrigin:
+  - {x: 1, y: 0}
+  - {x: 2, y: 0}
+  - {x: 2, y: 1}
   isExit: 0
   roomAddr:
     m_AssetGUID: 413dbabbd5af5a1468316ffe7f1cdaeb

@@ -263,6 +263,7 @@ GameObject:
   - component: {fileID: 5453990857251292033}
   - component: {fileID: 2760964349743856747}
   - component: {fileID: 3650356279168480053}
+  - component: {fileID: 7671787761241806957}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -351,7 +352,7 @@ MonoBehaviour:
   forceTP: 1
   forceTPLocation: {fileID: 0}
   walkSpeed: 3
-  sprintSpeed: 5
+  sprintSpeed: 6
   playerCamera: {fileID: 8750220643520727288}
   isSprinting: 0
   lookSpeed: 2
@@ -374,10 +375,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetTag: Item
-  interactRadius: 3
+  interactRadius: 2
   canvas: {fileID: 0}
   interactDisplay: {fileID: 0}
   currentInteractible: {fileID: 0}
+--- !u!114 &7671787761241806957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5856438823863147957}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f3a8d54b9f7ed284d9501ad236cacbd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cullingRange: 50
 --- !u!1 &5862974486515880673
 GameObject:
   m_ObjectHideFlags: 0
@@ -569,7 +583,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 20
   field of view: 60
   orthographic: 0
   orthographic size: 5
