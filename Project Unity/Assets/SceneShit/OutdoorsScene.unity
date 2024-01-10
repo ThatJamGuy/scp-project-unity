@@ -25,7 +25,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -99,7 +99,8 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: f6629d7893ff30e4cbc1cc3c1278eee9,
+    type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -124,25 +125,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &124913676 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5856438823863147957, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-    type: 3}
-  m_PrefabInstance: {fileID: 3584251887030864122}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &124913682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 124913676}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a8d54b9f7ed284d9501ad236cacbd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cullingRange: 50
 --- !u!1 &130801918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1376,26 +1358,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2760964349743856747, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-        type: 3}
-      propertyPath: forceTP
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2760964349743856747, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-        type: 3}
-      propertyPath: sprintSpeed
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 3650356279168480053, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
         type: 3}
       propertyPath: canvas
       value: 
       objectReference: {fileID: 1394019856}
-    - target: {fileID: 3650356279168480053, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-        type: 3}
-      propertyPath: interactRadius
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 3650356279168480053, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
         type: 3}
       propertyPath: interactDisplay
@@ -1456,19 +1423,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    - target: {fileID: 8750220643520727288, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-        type: 3}
-      propertyPath: far clip plane
-      value: 20
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 5856438823863147957, guid: fdc9b3e4e44041c47a51c0fd1012ec5a,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 124913682}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fdc9b3e4e44041c47a51c0fd1012ec5a, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
