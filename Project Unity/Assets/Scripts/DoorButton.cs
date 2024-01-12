@@ -36,7 +36,8 @@ public class DoorButton : MonoBehaviour
         }
         else
         {
-            lockedSFX.Play();
+            if (interactCooldown < 0)
+                lockedSFX.Play(); interactCooldown = 0.1f;
         }
     }
 }

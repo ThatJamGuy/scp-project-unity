@@ -3988,6 +3988,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 301471517947544688}
     m_Modifications:
+    - target: {fileID: 1990353174906087615, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: interactCooldown
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2290104930849120223, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       propertyPath: isLocked
