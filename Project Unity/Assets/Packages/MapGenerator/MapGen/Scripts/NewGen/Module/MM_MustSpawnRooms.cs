@@ -10,6 +10,7 @@ namespace ALOB.Map
     {
         bool disableBFS;
         int maxIterationsBeforeFallback;
+        public string debugMessage = "";
 
         public MM_MustSpawnRooms(System.Random randomGen, GeneratorMapPreset gMP, bool disableBFS, int maxIterationsBeforeFallback) : base(randomGen, gMP)
         {
@@ -201,7 +202,7 @@ namespace ALOB.Map
             r.x = cDPreset.loc.x;
             r.y = cDPreset.loc.y;
             cDPreset.setRoom(r);
-            string debugMessage = "";
+            //string debugMessage = "";
 
             // Define if we passed the generation, this is false if we tried too many times to no avail.
             bool allPass = true;

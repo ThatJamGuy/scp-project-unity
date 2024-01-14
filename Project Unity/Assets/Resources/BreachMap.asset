@@ -28,6 +28,7 @@ MonoBehaviour:
     - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
     - room: {fileID: 11400000, guid: 84f9251e48f20a04cac94e9ad8e0cd9f, type: 2}
     - room: {fileID: 11400000, guid: 1297d4913cc2a0d44ab6b3be214c8e75, type: 2}
+    - room: {fileID: 11400000, guid: a48fe2ec16a6bd644b3cee3e02e11521, type: 2}
     mustSpawnLocations: []
     exitLocations: []
     pathLocation: []

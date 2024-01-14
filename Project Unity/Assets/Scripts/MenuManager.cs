@@ -1,13 +1,19 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class MenuManager : MonoBehaviour
 {
     public string gameScene;
 
+    [Header("Game Values")]
+    public TMP_InputField saveName;
+
+    private string localGameName;
+
     public void NewGame()
     {
-        SceneManager.LoadScene(gameScene);
+        localGameName = saveName.text;
     }
 
     public void QuiteGame()
