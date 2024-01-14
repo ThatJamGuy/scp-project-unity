@@ -11,9 +11,16 @@ public class MenuManager : MonoBehaviour
 
     private string localGameName;
 
-    public void NewGame()
+    public void RefreshGameName()
     {
         localGameName = saveName.text;
+        Debug.Log(localGameName);
+    }
+
+    public void NewGame()
+    {
+        Debug.Log("Creating game '" + localGameName + "' under seed (_Seed)");
+        SceneManager.LoadScene(gameScene);
     }
 
     public void QuiteGame()
