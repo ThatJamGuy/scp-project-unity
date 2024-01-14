@@ -99,10 +99,17 @@ public class Player : MonoBehaviour
     {
         if (Mathf.Abs(moveDirection.x) > 0.01f || Mathf.Abs(moveDirection.z) > 0.01f)
         {
+            // Forced values through code, will eventually modify to change dynamically.
             if (isSprinting)
-                bobbingSpeed = 15;
+            {
+                bobbingSpeed = 10;
+                bobbingAmount = 0.1f;
+            }
             else
+            {
                 bobbingSpeed = 7;
+                bobbingAmount = 0.1f;
+            }
 
             // Update headbob cycle
             headbobCycle += bobbingSpeed * Time.deltaTime;
