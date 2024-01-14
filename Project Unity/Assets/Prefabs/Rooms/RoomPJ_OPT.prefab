@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3526906371627375968}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -49,7 +49,7 @@ GameObject:
   - component: {fileID: 6787228173318851923}
   - component: {fileID: 7920437501855874290}
   - component: {fileID: 4974836083719503336}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 3094778881473969781}
   - component: {fileID: 1622797470423206653}
   - component: {fileID: 3662379706346730377}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -483,7 +483,7 @@ GameObject:
   - component: {fileID: 7126100740718771647}
   - component: {fileID: 8113800567790191540}
   - component: {fileID: 7541359815424270116}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -700,7 +700,7 @@ GameObject:
   - component: {fileID: 7352852324326461521}
   - component: {fileID: 6846094193404130636}
   - component: {fileID: 2462976612220628193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CellLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -918,7 +918,7 @@ GameObject:
   - component: {fileID: 5388678774502891866}
   - component: {fileID: 1829641907952555968}
   - component: {fileID: 2060851513744038704}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1135,7 +1135,7 @@ GameObject:
   - component: {fileID: 4967487971662306902}
   - component: {fileID: 1832311567010619675}
   - component: {fileID: 4740770543814129776}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1353,7 +1353,7 @@ GameObject:
   - component: {fileID: 3517666480089779529}
   - component: {fileID: 352793951736550491}
   - component: {fileID: 7411365515037412028}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -1475,7 +1475,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2474255483312281789}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: RoomPJ_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 2048502898507808695}
   - component: {fileID: 548494629874174946}
   - component: {fileID: 5130860359331263193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1727,7 +1727,7 @@ GameObject:
   - component: {fileID: 291096626800946316}
   - component: {fileID: 6363002372678316104}
   - component: {fileID: 6150951783822571685}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

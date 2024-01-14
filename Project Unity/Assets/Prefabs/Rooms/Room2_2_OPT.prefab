@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1604440668588759318}
   - component: {fileID: 428070596665560458}
   - component: {fileID: 4290448527821039290}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 3892157482720319309}
   - component: {fileID: 998131710651709507}
   - component: {fileID: 1089320488746738599}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,7 +175,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8492727775088383314}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2_2_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,7 +209,7 @@ GameObject:
   - component: {fileID: 4155278397839829880}
   - component: {fileID: 8420739348763506693}
   - component: {fileID: 8136218884769567161}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 5881442180232264438}
   - component: {fileID: 5635645991419952000}
   - component: {fileID: 4567361243531539018}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -643,7 +643,7 @@ GameObject:
   - component: {fileID: 7560595349619458114}
   - component: {fileID: 8813296965555228070}
   - component: {fileID: 4510501641307670809}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -726,7 +726,7 @@ GameObject:
   - component: {fileID: 165779886434602973}
   - component: {fileID: 4233224720065428956}
   - component: {fileID: 2913996162921337574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -809,7 +809,7 @@ GameObject:
   - component: {fileID: 4209192482357188510}
   - component: {fileID: 8794753725054697109}
   - component: {fileID: 9088169853902183406}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1026,7 @@ GameObject:
   - component: {fileID: 8768907725846102339}
   - component: {fileID: 4134828294016116778}
   - component: {fileID: 6603940090427803769}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: fan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1178,7 +1178,7 @@ GameObject:
   - component: {fileID: 2755008620854501921}
   - component: {fileID: 8249990683953006801}
   - component: {fileID: 7855137530731155612}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 8786021728795622023}
   - component: {fileID: 2038306066025961022}
   - component: {fileID: 6460408856496328657}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1480,7 +1480,7 @@ GameObject:
   - component: {fileID: 4842796676090109797}
   - component: {fileID: 6920596900968165172}
   - component: {fileID: 49963914879076014}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -1617,7 +1617,7 @@ GameObject:
   - component: {fileID: 5857349130251649925}
   - component: {fileID: 8274276571123749840}
   - component: {fileID: 5267202524044539268}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1834,7 +1834,7 @@ GameObject:
   - component: {fileID: 558320139501838810}
   - component: {fileID: 5908136517194280496}
   - component: {fileID: 7803928762217077118}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 170956231453598440}
   - component: {fileID: 7387581643389587327}
   - component: {fileID: 7752770598278433136}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2000,7 +2000,7 @@ GameObject:
   - component: {fileID: 5483583697503730176}
   - component: {fileID: 7306905668786205543}
   - component: {fileID: 8863635252761642263}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2083,7 +2083,7 @@ GameObject:
   - component: {fileID: 2354464719868513249}
   - component: {fileID: 5272244625991745248}
   - component: {fileID: 14458900852908399}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: classname=brush.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -1003,10 +1003,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1783993597}
+  - component: {fileID: 1783993601}
   - component: {fileID: 1783993598}
   - component: {fileID: 1783993599}
   - component: {fileID: 1783993600}
-  - component: {fileID: 1783993601}
   m_Layer: 0
   m_Name: BreachManager
   m_TagString: Untagged

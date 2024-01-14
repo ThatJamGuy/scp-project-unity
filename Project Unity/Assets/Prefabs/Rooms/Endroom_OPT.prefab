@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5564546126106814035}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Endroom_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -42,7 +42,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6794269867528600193}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,7 +78,7 @@ GameObject:
   - component: {fileID: 7597725256724333431}
   - component: {fileID: 5810209760196079833}
   - component: {fileID: 6320225078388787267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -295,7 +295,7 @@ GameObject:
   - component: {fileID: 8854342366803637783}
   - component: {fileID: 2606189986054604542}
   - component: {fileID: 1360440347890345996}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -513,7 +513,7 @@ GameObject:
   - component: {fileID: 7792777951107537467}
   - component: {fileID: 5320216461570592052}
   - component: {fileID: 6984639814769238467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -624,7 +624,7 @@ GameObject:
   - component: {fileID: 9112822905105153211}
   - component: {fileID: 1466276700845837144}
   - component: {fileID: 5542536982494380295}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

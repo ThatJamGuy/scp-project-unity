@@ -41,14 +41,11 @@ public class CreateDoors : MonoBehaviour
             var position = cell.center + direction * halfSize;
             var rotation = Quaternion.LookRotation(direction);
 
-            // Adjust the rotation
             rotation *= Quaternion.Euler(0, 90, 0);
 
-            // Store the result of Physics.Raycast in a RaycastHit variable
             RaycastHit hit;
             if (!Physics.Raycast(position, direction, out hit, cell.size))
             {
-                // No object at the position, safe to instantiate
                 Instantiate(prefab, position, rotation);
             }
         }

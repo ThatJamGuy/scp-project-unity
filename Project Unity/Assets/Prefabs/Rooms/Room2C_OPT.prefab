@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1493198208593231641}
   - component: {fileID: 2009330561876384317}
   - component: {fileID: 6570711147797834930}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CeilingLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +229,7 @@ GameObject:
   - component: {fileID: 7547177835430118784}
   - component: {fileID: 1143210599080117079}
   - component: {fileID: 1306079472514107421}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CeilingLight (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,7 +448,7 @@ GameObject:
   - component: {fileID: 2343360457379506870}
   - component: {fileID: 611511670297804396}
   - component: {fileID: 5069922975733692082}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 7383824410331034368}
   - component: {fileID: 2900953580105247486}
   - component: {fileID: 7359267444526074568}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: CeilingLight (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -777,7 +777,7 @@ GameObject:
   - component: {fileID: 4498515886972690142}
   - component: {fileID: 4484022235062796905}
   - component: {fileID: 8386249614889308779}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -992,7 +992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2377238263215059648}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2C_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1027,7 +1027,7 @@ GameObject:
   - component: {fileID: 7912090507829950366}
   - component: {fileID: 7922847735233761523}
   - component: {fileID: 4788850710775097550}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6289784278300259844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1278,7 +1278,7 @@ GameObject:
   - component: {fileID: 6628659152135693282}
   - component: {fileID: 864179800277226752}
   - component: {fileID: 1697582080257530696}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}

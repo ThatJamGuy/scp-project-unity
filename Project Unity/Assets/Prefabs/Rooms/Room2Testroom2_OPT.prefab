@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7539999430442919601}
   - component: {fileID: 8605835226023464682}
   - component: {fileID: 2976931040239027127}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,7 +129,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6113153621715370672}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -162,7 +162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3437967178243664721}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -196,7 +196,7 @@ GameObject:
   - component: {fileID: 7987240025883802209}
   - component: {fileID: 3041031358137369991}
   - component: {fileID: 5903183269527813958}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -415,7 +415,7 @@ GameObject:
   - component: {fileID: 7642386900812163496}
   - component: {fileID: 6178343023628708301}
   - component: {fileID: 8379324560530582722}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -533,7 +533,7 @@ GameObject:
   - component: {fileID: 7128994268452207887}
   - component: {fileID: 527026698801678295}
   - component: {fileID: 1836107530490472439}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -752,7 +752,7 @@ GameObject:
   - component: {fileID: 2427823585285217906}
   - component: {fileID: 6767170791591101133}
   - component: {fileID: 3769593448046825394}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -872,7 +872,7 @@ GameObject:
   - component: {fileID: 8924334072010105095}
   - component: {fileID: 5720346512940486593}
   - component: {fileID: 3480359315261586572}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -988,7 +988,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2745841934412298736}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2Testroom2_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 634397265749101925}
   - component: {fileID: 2576627370990089399}
   - component: {fileID: 6405690721800549593}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light12
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1242,7 +1242,7 @@ GameObject:
   - component: {fileID: 8952760172363161271}
   - component: {fileID: 8413168663734300977}
   - component: {fileID: 3268816686085313871}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 1836621040362751767}
   - component: {fileID: 9128498837767595037}
   - component: {fileID: 278803835054412239}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1577,7 +1577,7 @@ GameObject:
   - component: {fileID: 8986911679701990398}
   - component: {fileID: 2291782590987104426}
   - component: {fileID: 406915504381481471}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1797,7 +1797,7 @@ GameObject:
   - component: {fileID: 386712067777873110}
   - component: {fileID: 490052060974760157}
   - component: {fileID: 3308590797718650834}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1917,7 +1917,7 @@ GameObject:
   - component: {fileID: 6055353113971682082}
   - component: {fileID: 6341291671931399890}
   - component: {fileID: 142496041807502083}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2037,7 +2037,7 @@ GameObject:
   - component: {fileID: 7379702430723065682}
   - component: {fileID: 2981333089571183919}
   - component: {fileID: 1729479726313665440}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2157,7 +2157,7 @@ GameObject:
   - component: {fileID: 6538674365911686808}
   - component: {fileID: 2109812315326237189}
   - component: {fileID: 8582369461422573928}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2275,7 +2275,7 @@ GameObject:
   - component: {fileID: 1770174854325455753}
   - component: {fileID: 1742400436615878156}
   - component: {fileID: 3968720659725551233}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2492,7 +2492,7 @@ GameObject:
   - component: {fileID: 7690123691889708318}
   - component: {fileID: 1252162876751005375}
   - component: {fileID: 2436120864434118686}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light20
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2709,7 +2709,7 @@ GameObject:
   - component: {fileID: 5420407889145836200}
   - component: {fileID: 1518890955456136951}
   - component: {fileID: 5655681134705551635}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Spot Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2929,7 +2929,7 @@ GameObject:
   - component: {fileID: 4544099487264928232}
   - component: {fileID: 4397297581598596057}
   - component: {fileID: 180967832293844545}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: room2testroom2_opt
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -3086,7 +3086,7 @@ GameObject:
   - component: {fileID: 5692298224244586644}
   - component: {fileID: 3284682148101122838}
   - component: {fileID: 807226467947145752}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3204,7 +3204,7 @@ GameObject:
   - component: {fileID: 8735220406895691375}
   - component: {fileID: 8784704565410511721}
   - component: {fileID: 8242638250134465100}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light13
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3423,7 +3423,7 @@ GameObject:
   - component: {fileID: 7907888391915922259}
   - component: {fileID: 865991562119573565}
   - component: {fileID: 5803967566490942329}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3538,10 +3538,40 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6113153621715370672}
     m_Modifications:
+    - target: {fileID: 1324610456747880596, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679799399962830659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       propertyPath: m_Name
       value: Regular Door (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373127635905898855, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181659088573924462, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5738979258960292178, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
@@ -3593,6 +3623,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7201635277725362395, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649522792649431999, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3612,6 +3652,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6113153621715370672}
     m_Modifications:
+    - target: {fileID: 1324610456747880596, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679799399962830659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2812391120290927419, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3626,6 +3681,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Regular Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373127635905898855, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181659088573924462, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5356529953394156217, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
@@ -3681,6 +3751,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201635277725362395, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649522792649431999, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

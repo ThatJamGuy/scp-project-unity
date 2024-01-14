@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8709451561675030831}
   - component: {fileID: 3393804617766164744}
   - component: {fileID: 2188544589769783976}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6228604176081524574}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: 173Bright_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -262,7 +262,7 @@ GameObject:
   - component: {fileID: 5959613721584834181}
   - component: {fileID: 4606951041063926143}
   - component: {fileID: 6382724369610270678}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +479,7 @@ GameObject:
   - component: {fileID: 4929691206177807525}
   - component: {fileID: 3408537812528356402}
   - component: {fileID: 5016698088856610103}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Reflection Probe (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -952,7 +952,7 @@ GameObject:
   - component: {fileID: 3585117810815437893}
   - component: {fileID: 4237842667059268721}
   - component: {fileID: 6220843321098614817}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1169,7 +1169,7 @@ GameObject:
   - component: {fileID: 7590158481588585536}
   - component: {fileID: 200547387932915384}
   - component: {fileID: 3317290179107144658}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1386,7 +1386,7 @@ GameObject:
   - component: {fileID: 474062903444510275}
   - component: {fileID: 2485482716067047868}
   - component: {fileID: 3824162991579962645}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1859,7 +1859,7 @@ GameObject:
   - component: {fileID: 3320926311575083441}
   - component: {fileID: 7764094555142744790}
   - component: {fileID: 3872763980842366597}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2074,7 +2074,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6893913859628517566}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2116,7 +2116,7 @@ GameObject:
   - component: {fileID: 595331245984878014}
   - component: {fileID: 7970690112151059419}
   - component: {fileID: 4430569016969069159}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -2262,7 +2262,7 @@ GameObject:
   - component: {fileID: 2729915651013361903}
   - component: {fileID: 2086791277744555491}
   - component: {fileID: 8022100544450094540}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2479,7 +2479,7 @@ GameObject:
   - component: {fileID: 228520609779035638}
   - component: {fileID: 7227994526821764171}
   - component: {fileID: 6677021478710599254}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2696,7 +2696,7 @@ GameObject:
   - component: {fileID: 5305830475585233281}
   - component: {fileID: 2757494801000306612}
   - component: {fileID: 4225155777058002231}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2911,7 +2911,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6077942730181335139}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Probes
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616440892121609145}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2Closets_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,7 +46,7 @@ GameObject:
   - component: {fileID: 8110402252687926555}
   - component: {fileID: 7125364821399773623}
   - component: {fileID: 4428209325986994019}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 6611434857111889472}
   - component: {fileID: 39212463891583575}
   - component: {fileID: 7664655214509985891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -386,7 +386,7 @@ GameObject:
   - component: {fileID: 5725882858184976257}
   - component: {fileID: 6243711779651691106}
   - component: {fileID: 1037286591430042058}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -601,7 +601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4130459362536324134}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -638,7 +638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 922031268396640472}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -672,7 +672,7 @@ GameObject:
   - component: {fileID: 1731461005145491324}
   - component: {fileID: 6625629237937393538}
   - component: {fileID: 3964254036404434225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -888,7 +888,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2318580228207413518}
   - component: {fileID: 6974078995055054205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Light Probe Group
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -939,7 +939,7 @@ GameObject:
   - component: {fileID: 8278857629016911425}
   - component: {fileID: 2651722746722533319}
   - component: {fileID: 4090630341775573024}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1156,7 +1156,7 @@ GameObject:
   - component: {fileID: 6901312885599556388}
   - component: {fileID: 7478636704322416630}
   - component: {fileID: 7630028738265466205}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1373,7 +1373,7 @@ GameObject:
   - component: {fileID: 2038266399316021592}
   - component: {fileID: 1368698939875168425}
   - component: {fileID: 8406907867815041974}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Point Light (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1587,6 +1587,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 922031268396640472}
     m_Modifications:
+    - target: {fileID: 1324610456747880596, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2679799399962830659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2812391120290927419, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       propertyPath: m_LocalPosition.z
@@ -1596,6 +1611,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Regular Door
+      objectReference: {fileID: 0}
+    - target: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4373127635905898855, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5181659088573924462, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 5356529953394156217, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
@@ -1651,6 +1681,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7201635277725362395, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7649522792649431999, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

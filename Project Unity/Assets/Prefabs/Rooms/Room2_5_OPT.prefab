@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3905145152017243193}
   - component: {fileID: 1160556827625107273}
   - component: {fileID: 1463732934487887294}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -228,7 +228,7 @@ GameObject:
   - component: {fileID: 5439054693028732545}
   - component: {fileID: 85183394184176169}
   - component: {fileID: 8019893511549971414}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -445,7 +445,7 @@ GameObject:
   - component: {fileID: 3672456766793439659}
   - component: {fileID: 7218371655926484630}
   - component: {fileID: 4880899819416164315}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: light6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -664,7 +664,7 @@ GameObject:
   - component: {fileID: 8849489111566444382}
   - component: {fileID: 2080373581553779872}
   - component: {fileID: 1102690167763774589}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2_5_OPT
   m_TagString: RegularSurface
   m_Icon: {fileID: 0}
@@ -793,7 +793,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3125555974863831417}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Room2_5_OPT
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -829,7 +829,7 @@ GameObject:
   - component: {fileID: 4662920983649468301}
   - component: {fileID: 1775813651711113511}
   - component: {fileID: 8786061729726061680}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -945,7 +945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5308270876817593465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Mesh
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +981,7 @@ GameObject:
   - component: {fileID: 2317119637569169303}
   - component: {fileID: 8085072528070109555}
   - component: {fileID: 5920975081671170682}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: model0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
