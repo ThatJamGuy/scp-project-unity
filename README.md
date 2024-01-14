@@ -22,3 +22,16 @@ Now, as one developer that still has a lot to learn, my solutions to stuff likel
 
 # Please Note
 Although this project is gaining more features and bug-fixes, it still is not in a very playable state. You can download and open the project in unity, but don't expect very much from it. Even the main menu (At the time of writing) has to be redone from the changes made during one of the more recent commits.
+
+# Credits
+- ThatJamGuy | Main dev, so programming, all the engine stuff, etc.
+- Regalis / Everyone else that helped with SCP:CB | All the OG SCP:CB Assets
+- GasimoCodes | Map Generation scripts
+- VirtualBrightPlayz | RMesh conversion scripts
+
+# External Links
+Regalis11 SCPCB:  https://github.com/Regalis11/scpcb
+
+GasimoCodes MapGen: https://github.com/GasimoCodes/MapGen
+
+VirtualBrightPlayz RMesh converter: https://github.com/VirtualBrightPlayz/cb-rmesh-unity
