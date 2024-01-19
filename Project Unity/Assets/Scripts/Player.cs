@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
@@ -132,11 +133,20 @@ public class Player : MonoBehaviour
         }
     }
 
+    // Forces a teleport to the starting chamber, which is randomly placed on the map requiring a teleport.
     IEnumerator ForceTP()
     {
         yield return new WaitForSeconds(1);
         forceTPLocation = GameObject.Find("ForceTPLocation").transform;
-        transform.position = forceTPLocation.position;
-        StopCoroutine(ForceTP());
+        if (forceTPLocation != null)
+        {
+            transform.position = forceTPLocation.position;
+            StopCoroutine(ForceTP());
+        }
+        else
+        {
+            Debug.Log("Couldn't find a good ForceTP location, sending to menu.");
+            SceneManager.LoadScene("Menu");
+        }
     }
 }

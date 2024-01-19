@@ -82,7 +82,13 @@ namespace ALOB.Map
         public void Start()
         {
             Application.targetFrameRate = 60;
-            EnabledInPlaymodeOnly();
+            //EnabledInPlaymodeOnly();
+
+            NewGen ng = this.GetComponent<NewGen>();
+            if (seed == 0)
+                ng.generateMap((UnityEngine.Random.Range(10000000, 99999999)));
+            else
+                ng.generateMap((seed));
         }
 
 
@@ -99,7 +105,7 @@ namespace ALOB.Map
                 ng.generateMap((seed));
 
             }
-            catch()
+            catch();
             {
             
             EnabledInPlaymodeOnly();
