@@ -81,7 +81,7 @@ namespace ALOB.Map
 
         public void Start()
         {
-            Application.targetFrameRate = 60;
+            //Application.targetFrameRate = 60;
             //EnabledInPlaymodeOnly();
 
             NewGen ng = this.GetComponent<NewGen>();

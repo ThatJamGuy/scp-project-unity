@@ -38,11 +38,11 @@ MonoBehaviour:
   - name: HCZ
     traversingExistingPathsCost: 0
     roomCatalogue:
-    - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
-    - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
-    - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
-    - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
-    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
+    - room: {fileID: 11400000, guid: 75ffaf8322cf5db46b56d7e73b4c5e49, type: 2}
+    - room: {fileID: 11400000, guid: 29aba246ce84f114f928854fdb3b6eb5, type: 2}
+    - room: {fileID: 11400000, guid: fb0c22f3ddb0b8f439289a4c2eb0b3b3, type: 2}
+    - room: {fileID: 11400000, guid: 1419c892b73b064419aafde51a83f3e9, type: 2}
+    - room: {fileID: 11400000, guid: 118ff2503d28b794e8f2988978e625a8, type: 2}
     - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
     mustSpawnLocations: []
     exitLocations: []
@@ -50,11 +50,11 @@ MonoBehaviour:
   - name: EZ
     traversingExistingPathsCost: 0
     roomCatalogue:
-    - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
-    - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
-    - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
-    - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
-    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
+    - room: {fileID: 11400000, guid: 75ffaf8322cf5db46b56d7e73b4c5e49, type: 2}
+    - room: {fileID: 11400000, guid: 29aba246ce84f114f928854fdb3b6eb5, type: 2}
+    - room: {fileID: 11400000, guid: fb0c22f3ddb0b8f439289a4c2eb0b3b3, type: 2}
+    - room: {fileID: 11400000, guid: 1419c892b73b064419aafde51a83f3e9, type: 2}
+    - room: {fileID: 11400000, guid: 118ff2503d28b794e8f2988978e625a8, type: 2}
     - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
     mustSpawnLocations: []
     exitLocations: []
