@@ -537,12 +537,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 902317101}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 70, y: 5, z: 70}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1032147224}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1032147223
 GameObject:
@@ -576,6 +576,7 @@ Transform:
   - {fileID: 432432461}
   - {fileID: 130801919}
   - {fileID: 1346672498}
+  - {fileID: 902317103}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1346672495
@@ -942,6 +943,7 @@ GameObject:
   - component: {fileID: 1783993601}
   - component: {fileID: 1783993598}
   - component: {fileID: 1783993599}
+  - component: {fileID: 1783993602}
   - component: {fileID: 1783993600}
   m_Layer: 0
   m_Name: BreachManager
@@ -1129,6 +1131,24 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1783993602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1783993595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cc6b9ab0b595a44d8d04224aaab091d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  doorPrefab: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
+    type: 3}
+  noTouchLayer:
+    serializedVersion: 2
+    m_Bits: 8
+  overlapRadius: 0.5
 --- !u!1 &2013410473
 GameObject:
   m_ObjectHideFlags: 1
@@ -1397,4 +1417,3 @@ SceneRoots:
   - {fileID: 2013410475}
   - {fileID: 3584251887030864122}
   - {fileID: 1394019857}
-  - {fileID: 902317103}

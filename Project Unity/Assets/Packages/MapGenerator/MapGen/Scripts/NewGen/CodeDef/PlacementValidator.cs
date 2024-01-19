@@ -139,7 +139,7 @@ namespace ALOB.Map
         /// <returns></returns>
         public int RoomPathfindingCheck(Room r, CellData cDPreset, List<CellData> pathFindTargets)
         {
-            bool allPass = true;
+            //bool allPass = true;
             int resCount = 0;
 
             // Debug.Log("PF For " + cDPreset + " " + r.getData().name);
