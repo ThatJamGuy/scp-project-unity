@@ -934,7 +934,7 @@ Transform:
   m_GameObject: {fileID: 6186214199603651472}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.25, y: 4, z: 3.28}
+  m_LocalPosition: {x: -9.853, y: 4.04, z: 3.262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1066,7 +1066,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 0.3
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -1111,7 +1111,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 0
+  useVolumetric: 1
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -1407,8 +1407,8 @@ MeshRenderer:
   - {fileID: -6316289280382237466, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
   - {fileID: 5023872155801703163, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
   - {fileID: 2100000, guid: a7d4509cf818db24290e0d54ae5943c0, type: 2}
-  - {fileID: -8589155087498048500, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
-  - {fileID: 5078585138065514295, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
+  - {fileID: 2100000, guid: 5a3d647d435fa9144bfbd2766c759e6b, type: 2}
+  - {fileID: 2100000, guid: fb8956f67e2292046880e3f886c457fe, type: 2}
   - {fileID: 2100000, guid: 80a1e2fac152f1648ab8a71aa4c5888f, type: 2}
   - {fileID: 2100000, guid: efc57b1881d3f1849a86d4b6b4f1481f, type: 2}
   - {fileID: 233684271994962385, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
@@ -1420,9 +1420,9 @@ MeshRenderer:
   - {fileID: -4456726080961387979, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
   - {fileID: 5211032113485140763, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
   - {fileID: 2100000, guid: 7895113b876b7cc498d937078a61bb67, type: 2}
-  - {fileID: -6942098097197316004, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
+  - {fileID: 2100000, guid: 80c3435feccfac8459a5ca24e56311e1, type: 2}
   - {fileID: 2100000, guid: a2e888e597862ca448a72bd44c659ccc, type: 2}
-  - {fileID: -9082248556036433164, guid: de51ef2cf2e54154f85900e7d7e1c72f, type: 3}
+  - {fileID: 2100000, guid: 3d89b1ff2d1358e49b1f2a5bdce966ba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1526,7 +1526,7 @@ Transform:
   m_GameObject: {fileID: 7598025961904315946}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.25, y: 4, z: 7.09}
+  m_LocalPosition: {x: -9.853, y: 4.04, z: 7.072}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1658,7 +1658,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 0.3
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -1703,7 +1703,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 0
+  useVolumetric: 1
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0
@@ -1743,7 +1743,7 @@ Transform:
   m_GameObject: {fileID: 8785196579295250388}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.25, y: 4, z: -0.557}
+  m_LocalPosition: {x: -9.853, y: 4.04, z: -0.575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1875,7 +1875,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 0.3
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -1920,7 +1920,7 @@ MonoBehaviour:
   m_ShadowVariant: 0
   m_ShadowPrecision: 0
   useOldInspector: 0
-  useVolumetric: 0
+  useVolumetric: 1
   featuresFoldout: 1
   m_AreaLightEmissiveMeshShadowCastingMode: 0
   m_AreaLightEmissiveMeshMotionVectorGenerationMode: 0

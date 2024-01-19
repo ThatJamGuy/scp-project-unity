@@ -16,22 +16,22 @@ MonoBehaviour:
   - name: LCZ
     traversingExistingPathsCost: 0
     roomCatalogue:
+    - room: {fileID: 11400000, guid: 7a576756ece36b14ea322ba005d16106, type: 2}
+    - room: {fileID: 11400000, guid: de382d4d29052eb4c8a58550a9da2b9c, type: 2}
     - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
+    - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
+    - room: {fileID: 11400000, guid: cb305caa630547946bd34b719467f0d7, type: 2}
+    - room: {fileID: 11400000, guid: 8c84c6024bc54f84a9af95eed68fdecc, type: 2}
+    - room: {fileID: 11400000, guid: 852f9bf64aca8204fa7bf755c42db991, type: 2}
     - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
+    - room: {fileID: 11400000, guid: a48fe2ec16a6bd644b3cee3e02e11521, type: 2}
+    - room: {fileID: 11400000, guid: 13b783f4fdd7121409227776e664cdaf, type: 2}
+    - room: {fileID: 11400000, guid: 84f9251e48f20a04cac94e9ad8e0cd9f, type: 2}
+    - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
     - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
     - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
-    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
-    - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
-    - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
-    - room: {fileID: 11400000, guid: de382d4d29052eb4c8a58550a9da2b9c, type: 2}
-    - room: {fileID: 11400000, guid: 7a576756ece36b14ea322ba005d16106, type: 2}
-    - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
-    - room: {fileID: 11400000, guid: 84f9251e48f20a04cac94e9ad8e0cd9f, type: 2}
     - room: {fileID: 11400000, guid: 1297d4913cc2a0d44ab6b3be214c8e75, type: 2}
-    - room: {fileID: 11400000, guid: a48fe2ec16a6bd644b3cee3e02e11521, type: 2}
-    - room: {fileID: 11400000, guid: 8c84c6024bc54f84a9af95eed68fdecc, type: 2}
-    - room: {fileID: 11400000, guid: 13b783f4fdd7121409227776e664cdaf, type: 2}
-    - room: {fileID: 11400000, guid: 852f9bf64aca8204fa7bf755c42db991, type: 2}
+    - room: {fileID: 11400000, guid: 8b448b472fb7c874b91d197bfa35d562, type: 2}
     mustSpawnLocations: []
     exitLocations: []
     pathLocation: []

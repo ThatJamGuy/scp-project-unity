@@ -132,6 +132,16 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93cb6b388b72b3f4296451cfcff25a76
+    m_Address: Assets/Prefabs/Rooms/Room2_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aae4004edad57a41904fb04d47718f8
+    m_Address: Assets/Prefabs/Rooms/Checkpoint1_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 57633944e0df588498e95a54f34f7a24, type: 2}
   m_SchemaSet:
