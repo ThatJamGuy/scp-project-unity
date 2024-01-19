@@ -45,7 +45,7 @@ public class CreateDoors : MonoBehaviour
             rotation *= Quaternion.Euler(0, 90, 0);
 
             RaycastHit hit;
-            if (!Physics.Raycast(position, direction, out hit, cell.size))
+            if (!Physics.Raycast(position, direction, out hit, cell.size) && hit.collider != null && hit.collider.gameObject.layer != LayerMask.NameToLayer("NoTouch"))
             {
                 Instantiate(prefab, position, rotation);
             }

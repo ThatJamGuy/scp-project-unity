@@ -5,9 +5,6 @@ using UnityEngine.SceneManagement;
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
 {
-    public bool forceTP;
-    public Transform forceTPLocation;
-
     [Header("Player Speeds")]
     [SerializeField] private float walkSpeed = 5.0f;
     [SerializeField] private float sprintSpeed = 10.0f;
@@ -42,9 +39,6 @@ public class Player : MonoBehaviour
 
         originalYPos = playerCamera.transform.localPosition.y;
         originalCameraPosition = playerCamera.transform.localPosition;
-
-        if (forceTP)
-            StartCoroutine(ForceTP());
     }
 
     void Update()
@@ -100,19 +94,15 @@ public class Player : MonoBehaviour
     {
         if (Mathf.Abs(moveDirection.x) > 0.01f || Mathf.Abs(moveDirection.z) > 0.01f)
         {
-            // Forced values through code, will eventually modify to change dynamically.
             if (isSprinting)
                 bobbingSpeed = 10;
             else
                 bobbingSpeed = 7;
 
-            // Update headbob cycle
             headbobCycle += bobbingSpeed * Time.deltaTime;
 
-            // Calculate headbob position
             float yPos = originalYPos + Mathf.Sin(headbobCycle) * bobbingAmount;
 
-            // Apply headbob to camera
             playerCamera.transform.localPosition = new Vector3(
                 playerCamera.transform.localPosition.x,
                 yPos,
@@ -121,32 +111,13 @@ public class Player : MonoBehaviour
         }
         else
         {
-            // Save the current headbob position if not moving
             originalCameraPosition = playerCamera.transform.localPosition;
 
-            // Lerp camera position to the original position
             playerCamera.transform.localPosition = Vector3.Lerp(
                 playerCamera.transform.localPosition,
                 originalCameraPosition,
                 Time.deltaTime * bobbingSpeed
             );
-        }
-    }
-
-    // Forces a teleport to the starting chamber, which is randomly placed on the map requiring a teleport.
-    IEnumerator ForceTP()
-    {
-        yield return new WaitForSeconds(1);
-        forceTPLocation = GameObject.Find("ForceTPLocation").transform;
-        if (forceTPLocation != null)
-        {
-            transform.position = forceTPLocation.position;
-            StopCoroutine(ForceTP());
-        }
-        else
-        {
-            Debug.Log("Couldn't find a good ForceTP location, sending to menu.");
-            SceneManager.LoadScene("Menu");
         }
     }
 }
