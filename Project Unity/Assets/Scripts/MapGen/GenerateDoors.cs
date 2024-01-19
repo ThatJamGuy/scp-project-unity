@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Linq;
 using UnityEngine;
 
 public class GenerateDoors : MonoBehaviour
@@ -20,13 +21,7 @@ public class GenerateDoors : MonoBehaviour
     IEnumerator GenerateDoorsAuto()
     {
         yield return new WaitForSeconds(1);
-        InstantiateDoors();
-    }
-
-    void InstantiateDoors()
-    {
         GameObject[] doorSpots = GameObject.FindGameObjectsWithTag("DoorSpot");
-
         foreach (GameObject doorSpot in doorSpots)
         {
             InstantiateDoorAtSpot(doorSpot);
@@ -39,15 +34,11 @@ public class GenerateDoors : MonoBehaviour
         // Get the rotation of the DoorSpot
         Quaternion rotation = doorSpot.transform.rotation;
 
-        // Check for overlapping doors before instantiation
+        // Instantiate the door prefab at the DoorSpot's position and rotation if there are no overlapping doors
         if (!IsOverlappingDoors(doorSpot.transform.position))
         {
-            // Instantiate the door prefab at the DoorSpot's position and rotation
             GameObject door = Instantiate(doorPrefab, doorSpot.transform.position, rotation);
-
             door.layer = LayerMask.NameToLayer("NoTouch");
-
-            // Parent the door to the DoorSpot for organization
             door.transform.parent = doorSpot.transform;
         }
     }
@@ -57,14 +48,6 @@ public class GenerateDoors : MonoBehaviour
     {
         Collider[] colliders = Physics.OverlapSphere(position, overlapRadius, noTouchLayer);
 
-        foreach (Collider collider in colliders)
-        {
-            if (collider.gameObject.layer == LayerMask.NameToLayer("NoTouch"))
-            {
-                return true;
-            }
-        }
-
-        return false;
+        return colliders.Any(collider => collider.gameObject.layer == LayerMask.NameToLayer("NoTouch"));
     }
 }
