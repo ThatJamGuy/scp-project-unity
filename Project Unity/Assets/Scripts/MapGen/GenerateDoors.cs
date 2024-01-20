@@ -7,7 +7,7 @@ public class GenerateDoors : MonoBehaviour
     [Header("THE DOOR :O WOW")]
     [SerializeField] GameObject doorPrefab;
 
-    [Header("Other Vaalues")]
+    [Header("Other Values")]
     public LayerMask noTouchLayer;
     public float overlapRadius = 0.5f;
 

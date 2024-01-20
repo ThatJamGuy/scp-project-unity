@@ -263,7 +263,6 @@ GameObject:
   - component: {fileID: 5453990857251292033}
   - component: {fileID: 2760964349743856747}
   - component: {fileID: 3650356279168480053}
-  - component: {fileID: 7671787761241806957}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -349,8 +348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2298770270808142b30994850e74eb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceTP: 1
-  forceTPLocation: {fileID: 0}
   walkSpeed: 3
   sprintSpeed: 6
   playerCamera: {fileID: 8750220643520727288}
@@ -379,19 +376,6 @@ MonoBehaviour:
   canvas: {fileID: 0}
   interactDisplay: {fileID: 0}
   currentInteractible: {fileID: 0}
---- !u!114 &7671787761241806957
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5856438823863147957}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f3a8d54b9f7ed284d9501ad236cacbd8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cullingRange: 50
 --- !u!1 &5862974486515880673
 GameObject:
   m_ObjectHideFlags: 0
@@ -783,7 +767,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

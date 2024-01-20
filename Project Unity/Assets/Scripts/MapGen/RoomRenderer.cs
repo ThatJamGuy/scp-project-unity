@@ -1,59 +1,44 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
-public class RoomRenderer : MonoBehaviour
+public class RoomManager : MonoBehaviour
 {
-    public float cullingRange = 50f;
+    public Transform player;
+    public float disableRange = 10f;
+    private List<GameObject> rooms = new List<GameObject>();
 
-    private Camera mainCamera;
-
-    private void Start()
+    void Start()
     {
-        mainCamera = Camera.main;
+        StartCoroutine(FindRooms());
     }
 
-    private void Update()
+    IEnumerator FindRooms()
     {
-        if (mainCamera == null)
+        yield return new WaitForSeconds(1f);
+        GameObject[] roomObjs = GameObject.FindGameObjectsWithTag("Room");
+        foreach (var obj in roomObjs)
         {
-            Debug.LogError("Main camera not found. Please tag your camera as 'MainCamera'.");
-            return;
-        }
-
-        // Perform frustum culling for MeshRenderers
-        MeshRenderer[] renderers = FindObjectsOfType<MeshRenderer>();
-        foreach (MeshRenderer renderer in renderers)
-        {
-            if (IsRendererVisibleByCamera(renderer))
+            if (!rooms.Contains(obj))
             {
-                renderer.enabled = true;
-            }
-            else
-            {
-                renderer.enabled = false;
-            }
-        }
-
-        // Perform distance-based culling for lights using spatial partitioning
-        Light[] lights = FindObjectsOfType<Light>();
-        foreach (Light light in lights)
-        {
-            float distanceToLight = Vector3.Distance(mainCamera.transform.position, light.transform.position);
-
-            if (distanceToLight <= cullingRange)
-            {
-                light.enabled = true;
-            }
-            else
-            {
-                light.enabled = false;
+                rooms.Add(obj);
             }
         }
     }
 
-    private bool IsRendererVisibleByCamera(Renderer renderer)
+    void Update()
     {
-        // Check if the renderer is within the camera's view frustum
-        return GeometryUtility.TestPlanesAABB(GeometryUtility.CalculateFrustumPlanes(mainCamera), renderer.bounds);
+        foreach (var room in rooms)
+        {
+            float distance = Vector3.Distance(player.position, room.transform.position);
+            if (distance > disableRange)
+            {
+                room.SetActive(false);
+            }
+            else
+            {
+                room.SetActive(true);
+            }
+        }
     }
 }

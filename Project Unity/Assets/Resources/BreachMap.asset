@@ -61,7 +61,7 @@ MonoBehaviour:
   connections:
   - fromZone: HCZ
     toZone: LCZ
-    maxAmountOfConnections: 2
+    maxAmountOfConnections: 1
   - fromZone: HCZ
     toZone: EZ
     maxAmountOfConnections: 1

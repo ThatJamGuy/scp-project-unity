@@ -791,7 +791,7 @@ GameObject:
   - component: {fileID: 4286341969913296809}
   m_Layer: 6
   m_Name: Lockroom3_OPT
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647

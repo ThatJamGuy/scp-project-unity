@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5564546126106814035}
   m_Layer: 6
   m_Name: Endroom_OPT
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
@@ -876,7 +876,7 @@ GameObject:
   - component: {fileID: 3492598135323672368}
   - component: {fileID: 6021116278591675489}
   - component: {fileID: 6437158776618259688}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ContDoorLeft (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -981,7 +981,7 @@ GameObject:
   - component: {fileID: 5727829273313937257}
   - component: {fileID: 7537232651462570915}
   - component: {fileID: 5313623904089149663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ContDoorLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}

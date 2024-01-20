@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 6457047917483446960}
   - component: {fileID: 1752207798908002291}
   - component: {fileID: 2010781941077981467}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HCZFAKER
-  m_TagString: Untagged
+  m_TagString: Room
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 2147483647
