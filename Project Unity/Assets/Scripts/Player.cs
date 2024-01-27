@@ -21,6 +21,9 @@ public class Player : MonoBehaviour
     [SerializeField] private float bobbingAmount = 0.2f;
     [SerializeField] private GameObject groundDetect;
 
+    [Header("Other Values")]
+    [SerializeField] MenuManager menuManager;
+
     [HideInInspector] public bool canMove = true;
 
     private CharacterController characterController;
@@ -34,22 +37,31 @@ public class Player : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (!menuManager.isPaused)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
 
-        originalYPos = playerCamera.transform.localPosition.y;
-        originalCameraPosition = playerCamera.transform.localPosition;
+            originalYPos = playerCamera.transform.localPosition.y;
+            originalCameraPosition = playerCamera.transform.localPosition;
+        }
     }
 
     void Update()
     {
-        HandleMovementInput();
-        ApplyGravity();
-        MoveCharacterController();
-        RotatePlayerAndCamera();
-        ApplyHeadbobbing();
+        if (!menuManager.isPaused)
+        {
+            HandleMovementInput();
+            ApplyGravity();
+            MoveCharacterController();
+            RotatePlayerAndCamera();
+            ApplyHeadbobbing();
+        }
 
         groundDetect.transform.position = playerCamera.transform.position;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            menuManager.PauseGame();
     }
 
     void HandleMovementInput()
