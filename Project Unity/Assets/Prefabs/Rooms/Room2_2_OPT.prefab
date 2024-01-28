@@ -1025,7 +1025,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8768907725846102339}
   - component: {fileID: 6603940090427803769}
-  - component: {fileID: 5109702674777812724}
   - component: {fileID: 4134828294016116778}
   m_Layer: 6
   m_Name: fan
@@ -1154,18 +1153,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &5109702674777812724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4751716374010557400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d3ae16aa9791c2d4fa2d0756d7c03587, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &4134828294016116778
 MonoBehaviour:
   m_ObjectHideFlags: 0

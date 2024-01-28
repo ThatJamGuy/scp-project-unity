@@ -17,6 +17,7 @@ MonoBehaviour:
     traversingExistingPathsCost: 0
     roomCatalogue:
     - room: {fileID: 11400000, guid: 7a576756ece36b14ea322ba005d16106, type: 2}
+    - room: {fileID: 11400000, guid: b4e0acc5b5431ed4888bf133e19366ae, type: 2}
     - room: {fileID: 11400000, guid: 36e4e56f96413cd429a9b8dc991f4020, type: 2}
     - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
     - room: {fileID: 11400000, guid: cb305caa630547946bd34b719467f0d7, type: 2}
@@ -24,8 +25,10 @@ MonoBehaviour:
     - room: {fileID: 11400000, guid: 852f9bf64aca8204fa7bf755c42db991, type: 2}
     - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
     - room: {fileID: 11400000, guid: a48fe2ec16a6bd644b3cee3e02e11521, type: 2}
+    - room: {fileID: 11400000, guid: 4975b176459fe204ab76b5be853c8b61, type: 2}
     - room: {fileID: 11400000, guid: 13b783f4fdd7121409227776e664cdaf, type: 2}
     - room: {fileID: 11400000, guid: 84f9251e48f20a04cac94e9ad8e0cd9f, type: 2}
+    - room: {fileID: 11400000, guid: 0138c07b50b868d4c8ecad52d0e2cee8, type: 2}
     - room: {fileID: 11400000, guid: 0e93857d9929d8f4aab3602ffdb150b4, type: 2}
     - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}
     - room: {fileID: 11400000, guid: 7b2cfd02fbb796b49901cf679ddaf546, type: 2}
@@ -59,9 +62,9 @@ MonoBehaviour:
     exitLocations: []
     pathLocation: []
   connections:
-  - fromZone: HCZ
-    toZone: LCZ
-    maxAmountOfConnections: 1
+  - fromZone: LCZ
+    toZone: HCZ
+    maxAmountOfConnections: 5
   - fromZone: HCZ
     toZone: EZ
     maxAmountOfConnections: 1

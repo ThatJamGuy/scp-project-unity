@@ -37,31 +37,25 @@ public class Player : MonoBehaviour
     {
         characterController = GetComponent<CharacterController>();
 
-        if (!menuManager.isPaused)
-        {
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
 
-            originalYPos = playerCamera.transform.localPosition.y;
-            originalCameraPosition = playerCamera.transform.localPosition;
-        }
+        originalYPos = playerCamera.transform.localPosition.y;
+        originalCameraPosition = playerCamera.transform.localPosition;
     }
 
     void Update()
     {
-        if (!menuManager.isPaused)
-        {
-            HandleMovementInput();
-            ApplyGravity();
-            MoveCharacterController();
-            RotatePlayerAndCamera();
-            ApplyHeadbobbing();
-        }
+        HandleMovementInput();
+        ApplyGravity();
+        MoveCharacterController();
+        RotatePlayerAndCamera();
+        ApplyHeadbobbing();
 
         groundDetect.transform.position = playerCamera.transform.position;
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-            menuManager.PauseGame();
+        //if (Input.GetKeyDown(KeyCode.Escape))
+            //menuManager.PauseGame();
     }
 
     void HandleMovementInput()

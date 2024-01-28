@@ -6,14 +6,19 @@ public class BreachManager : MonoBehaviour
     [Header("Audio")]
     [SerializeField] AudioClip breachSequence;
     [SerializeField] AudioClip[] ambience;
+    [SerializeField] AudioClip[] commotion;
 
     [Header("Audio Sources")]
     [SerializeField] AudioSource breachSource;
     [SerializeField] AudioSource ambienceSource;
+    [SerializeField] AudioSource commotionSource;
+
+    private int currentCommotionIndex = 0;
 
     private void Start()
     {
         //StartBreach();
+        PlayNextCommotion();
         StartCoroutine(Ambience());
     }
 
@@ -21,6 +26,21 @@ public class BreachManager : MonoBehaviour
     {
         breachSource.clip = breachSequence;
         breachSource.Play();
+    }
+
+    private void PlayNextCommotion()
+    {
+        if (currentCommotionIndex < commotion.Length)
+        {
+            commotionSource.clip = commotion[currentCommotionIndex];
+            commotionSource.Play();
+            currentCommotionIndex++;
+            Invoke("PlayNextCommotion", 10f);
+        }
+        else
+        {
+            commotionSource.Stop();
+        }
     }
 
     IEnumerator Ambience()
