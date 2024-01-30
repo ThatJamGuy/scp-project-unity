@@ -2600,6 +2600,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: df883a2b7c2094941b1d3da2e340d643, type: 3}
   - {fileID: 8300000, guid: 519810e73c9da2e4097bac9fd41a6e2c, type: 3}
   - {fileID: 8300000, guid: 4e5bebe23397bf7439a41c50e0f5d4f6, type: 3}
+  - {fileID: 8300000, guid: 7e7047aaecd30f848ad72b6d09ba222b, type: 3}
   commotion:
   - {fileID: 8300000, guid: 1ed6563d381ad124d8baa6fd63ff5a37, type: 3}
   - {fileID: 8300000, guid: 6f6e7a7944a578b49a63c500b0a124a6, type: 3}
@@ -2643,7 +2644,7 @@ AudioSource:
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

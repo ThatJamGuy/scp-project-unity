@@ -159,7 +159,7 @@ MonoBehaviour:
   m_EvsmBlurPasses: 0
   m_LightlayersMask: 1
   m_LinkShadowLayers: 1
-  m_ShadowNearPlane: 0.1
+  m_ShadowNearPlane: 0
   m_BlockerSampleCount: 24
   m_FilterSampleCount: 16
   m_MinFilterSize: 0.1
@@ -2063,7 +2063,7 @@ MeshRenderer:
   - {fileID: 2100000, guid: a7d4509cf818db24290e0d54ae5943c0, type: 2}
   - {fileID: 2100000, guid: 80a1e2fac152f1648ab8a71aa4c5888f, type: 2}
   - {fileID: 2100000, guid: efc57b1881d3f1849a86d4b6b4f1481f, type: 2}
-  - {fileID: 2100000, guid: efc57b1881d3f1849a86d4b6b4f1481f, type: 2}
+  - {fileID: 2100000, guid: 78316312d2060e145b6623c26e80fcfe, type: 2}
   - {fileID: 2100000, guid: 894688fe129e3cb49ae1b47194d05cb2, type: 2}
   - {fileID: 2100000, guid: 77ecfe94d8cc60e468516f0612957c42, type: 2}
   - {fileID: 2100000, guid: 660c1324b68929f47809af1f926309f7, type: 2}
