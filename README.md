@@ -1,5 +1,5 @@
 # SCP: Project Unity
-Just my attempt at remaking SCP:CB in the Unity Engine. Built on Unity 2022.3.15f1 HDRP.
+Just my attempt at remaking SCP:CB in the Unity Engine. Built on Unity 2022.3.18f1 HDRP.
 Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which recently recieved a new developer earlier this year.
 
 ![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/3830355b-17fc-4b7a-bf38-ca54f7860fdf)
