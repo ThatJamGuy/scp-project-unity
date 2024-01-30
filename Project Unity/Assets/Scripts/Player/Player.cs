@@ -21,9 +21,6 @@ public class Player : MonoBehaviour
     [SerializeField] private float bobbingAmount = 0.2f;
     [SerializeField] private GameObject groundDetect;
 
-    [Header("Other Values")]
-    [SerializeField] MenuManager menuManager;
-
     [HideInInspector] public bool canMove = true;
 
     private CharacterController characterController;
@@ -53,9 +50,6 @@ public class Player : MonoBehaviour
         ApplyHeadbobbing();
 
         groundDetect.transform.position = playerCamera.transform.position;
-
-        //if (Input.GetKeyDown(KeyCode.Escape))
-            //menuManager.PauseGame();
     }
 
     void HandleMovementInput()
