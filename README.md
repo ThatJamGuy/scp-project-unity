@@ -1,11 +1,15 @@
 # SCP: Project Unity
 Just my attempt at remaking SCP:CB in the Unity Engine. Built on Unity 2022.3.18f1 HDRP.
-Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which recently recieved a new developer earlier this year.
+Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which recently recieved a new developer earlier this year. (I recently saw the original dev's video and noticed he's coming back to the game, so I wish him luck in finishing it)
 
-![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/3830355b-17fc-4b7a-bf38-ca54f7860fdf)
-![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/d6c145c7-fda6-48ee-8ba7-cfbaaa89ad5d)
-![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/466fe682-3774-4213-8074-0212bcc55312)
-![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/b1d5d6d4-2846-402a-b68c-e5cb040408f0)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/e7ecb7a5-0716-4f52-bb47-f14f1c823e21)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/f0d66d81-5d98-4cb9-8de3-4599814ca344)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/94ee85fb-139c-46d6-96bc-acee2ca9fc60)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/1638dfdc-4578-46bd-8a8c-25c20397141b)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/45109bba-5026-4c12-b7fe-4b9a5cd07bcd)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/6c274c8c-3bd0-4b4e-8c16-7a2a8b93d674)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/057c94ee-6e05-4954-893e-c97586f05422)
+![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/ca2be39f-4ebb-4fca-80e7-14bd6d9e6b96)
 
 # Features
 - Completelly random map generation, instead of being pattern based. Using GasimoCodes MapGen system for this
