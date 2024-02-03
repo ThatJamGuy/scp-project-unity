@@ -10,20 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6f09adec4d103c47b03340cdee22896, type: 3}
-  m_Name: MachineRoom_OPT
+  m_Name: Room2C2_OPT
   m_EditorClassIdentifier: 
   roomName: genericRoomName
-  shape: 0
+  shape: 2
   pathFinderTravelCost: 2
-  large: 1
-  expandRelativeToOrigin:
-  - {x: 0, y: 1}
+  large: 0
+  expandRelativeToOrigin: []
   isExit: 0
   roomAddr:
-    m_AssetGUID: 296907b3c69935e4ca2ca8cccb04cedb
+    m_AssetGUID: b82e7a96a54b42c4ea04f23d1cd3a3f2
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
-  mustSpawn: 1
+  mustSpawn: 0
   spawnChance: 10
   spawnOnce: 0

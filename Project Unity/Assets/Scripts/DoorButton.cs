@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class DoorButton : MonoBehaviour
@@ -7,46 +8,53 @@ public class DoorButton : MonoBehaviour
     [SerializeField] private AudioSource lockedSFX;
 
     [Header("Door Settings")]
-    public Door door; // Assuming Door is another script/class
+    public Door door;
     public bool doorButton = true;
-    public float interactCooldown = 0.1f;
 
-    private void Update()
+    private bool canInteract;
+
+    private void Start()
     {
-        // Update the interaction cooldown
-        interactCooldown -= Time.deltaTime;
+        canInteract = true;
     }
 
     public void UseButton()
     {
-        // Check if the door is not locked
-        if (!door.isLocked)
+        if (!door.isLocked && canInteract)
         {
-            // Check if interaction cooldown is still active
-            if (interactCooldown > 0) return;
-
-            // Play button sound and reset cooldown
             buttonSFX.Play();
-            interactCooldown = 0.1f;
 
-            // Check if the door is assigned
-            if (door != null)
-            {
-                // Toggle door state
-                if (door.isOpen)
-                    door.CloseDoor();
-                else
-                    door.OpenDoor();
-            }
+            ToggleDoorState();
         }
-        else
+        else if (canInteract)
         {
-            // Play locked sound if the door is locked and reset cooldown
-            if (interactCooldown < 0)
-            {
-                lockedSFX.Play();
-                interactCooldown = 0.1f;
-            }
+            lockedSFX.Play();
+            canInteract = false;
+            StartCoroutine(Cooldown());
         }
+    }
+
+    private void ToggleDoorState()
+    {
+        if (door != null)
+        {
+            if (door.isOpen)
+            {
+                door.CloseDoor();
+            }
+            else
+            {
+                door.OpenDoor();
+            }
+
+            canInteract = false;
+            StartCoroutine(Cooldown());
+        }
+    }
+
+    IEnumerator Cooldown()
+    {
+        yield return new WaitForSeconds(1f);
+        canInteract = true;
     }
 }

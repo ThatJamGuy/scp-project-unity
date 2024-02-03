@@ -433,7 +433,7 @@ MonoBehaviour:
   lockedSFX: {fileID: 131425812981614079}
   door: {fileID: 2290104930849120223}
   doorButton: 1
-  interactCooldown: 1
+  interactCooldown: 0
 --- !u!1 &3767891870276995659
 GameObject:
   m_ObjectHideFlags: 0
@@ -1119,7 +1119,7 @@ MonoBehaviour:
   lockedSFX: {fileID: 4711016169172923880}
   door: {fileID: 2290104930849120223}
   doorButton: 1
-  interactCooldown: 1
+  interactCooldown: 0
 --- !u!1 &7649522792649431999
 GameObject:
   m_ObjectHideFlags: 0

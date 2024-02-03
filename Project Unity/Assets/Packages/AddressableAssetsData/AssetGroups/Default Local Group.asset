@@ -157,6 +157,11 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b82e7a96a54b42c4ea04f23d1cd3a3f2
+    m_Address: Assets/Prefabs/Rooms/Room2c2_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 57633944e0df588498e95a54f34f7a24, type: 2}
   m_SchemaSet:

@@ -553,20 +553,30 @@ MonoBehaviour:
     -
     Added this Change Log
 
-    - Added Discord Rich Presence
+    - Added more rooms
 
-    - Actually RPC
-    makes the game crash so nvmd
-
-    - Modified the scrollbar in the Change Log
+    - Added lights to Room2_3_OPT
 
     -
-    Modified some lights in SCP-914s chamber
+    Added Discord Rich Presence
 
-    - Fixed an incorrect material in
-    Room2SL_OPT
+    - Actually RPC makes the game crash so nvmd
 
-    - Fixed some other things.'
+    -
+    Modified the scrollbar in the Change Log
+
+    - Modified some lights in SCP-914s
+    chamber
+
+    - Modified the door button script
+
+    - Fixed an incorrect material
+    in Room2SL_OPT
+
+    - Fixed emission mapping on the Misc material
+
+    - Fixed
+    some other things.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
@@ -1440,7 +1450,7 @@ MonoBehaviour:
   m_text: '<u>v0.0.2</u>
 
     - Initial [public] Update. For previos version history,
-    vistit the GitHub page.'
+    visit the GitHub page.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,

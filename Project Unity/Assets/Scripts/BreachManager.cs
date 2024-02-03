@@ -35,7 +35,7 @@ public class BreachManager : MonoBehaviour
             commotionSource.clip = commotion[currentCommotionIndex];
             commotionSource.Play();
             currentCommotionIndex++;
-            Invoke("PlayNextCommotion", 10f);
+            Invoke("PlayNextCommotion", 15f);
         }
         else
         {
