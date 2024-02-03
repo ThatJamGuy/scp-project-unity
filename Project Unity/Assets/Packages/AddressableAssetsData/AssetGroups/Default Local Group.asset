@@ -62,13 +62,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 623e85c9088e96a469977b6f0b7b76ce
-    m_Address: Assets/Prefabs/Rooms/Room2_4_OPT.prefab
+  - m_GUID: 413dbabbd5af5a1468316ffe7f1cdaeb
+    m_Address: Assets/Prefabs/Rooms/173.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4aa930b58e0af5448b8a411569e27776
-    m_Address: Assets/Prefabs/Rooms/Room4_2_OPT.prefab
+  - m_GUID: 6aae4004edad57a41904fb04d47718f8
+    m_Address: Assets/Prefabs/Rooms/Checkpoint1_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -77,43 +77,18 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5fc2a2172f6987747a371246d8939df1
-    m_Address: Assets/Prefabs/Rooms/Room2C_OPT.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b2f6663ffbcdf7f4ca3872ae9a8c95a8
-    m_Address: Assets/Prefabs/Rooms/Room3_OPT.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7740c3055bedb754c8c1fba66531667e
-    m_Address: Assets/Prefabs/Rooms/Room1Archive.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 413dbabbd5af5a1468316ffe7f1cdaeb
-    m_Address: Assets/Prefabs/Rooms/173.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 293a81f4a55f67441b91b58d24c94ac5
-    m_Address: Assets/Prefabs/Rooms/Room2Closets_OPT.prefab
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cef666394ac52dd4281a0c1367bfd148
     m_Address: Assets/Prefabs/Rooms/Lockroom3_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ea2178aeb28d0194e9664675815dd6ce
-    m_Address: Assets/Prefabs/Rooms/Room2_5_OPT.prefab
+  - m_GUID: 296907b3c69935e4ca2ca8cccb04cedb
+    m_Address: Assets/Prefabs/Rooms/MachineRoom_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1272288dc1986c94cbb90dd988a191a1
-    m_Address: Assets/Prefabs/Rooms/Room2Testroom2_OPT.prefab
+  - m_GUID: 7740c3055bedb754c8c1fba66531667e
+    m_Address: Assets/Prefabs/Rooms/Room1Archive.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -127,18 +102,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 623e85c9088e96a469977b6f0b7b76ce
+    m_Address: Assets/Prefabs/Rooms/Room2_4_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea2178aeb28d0194e9664675815dd6ce
+    m_Address: Assets/Prefabs/Rooms/Room2_5_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 93cb6b388b72b3f4296451cfcff25a76
     m_Address: Assets/Prefabs/Rooms/Room2_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6aae4004edad57a41904fb04d47718f8
-    m_Address: Assets/Prefabs/Rooms/Checkpoint1_OPT.prefab
+  - m_GUID: 5fc2a2172f6987747a371246d8939df1
+    m_Address: Assets/Prefabs/Rooms/Room2C_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 042a0cffef18b7049b40eb53d6f989b4
-    m_Address: Assets/Prefabs/Rooms/HCZFAKER.prefab
+  - m_GUID: 293a81f4a55f67441b91b58d24c94ac5
+    m_Address: Assets/Prefabs/Rooms/Room2Closets_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -147,13 +132,28 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 296907b3c69935e4ca2ca8cccb04cedb
-    m_Address: Assets/Prefabs/Rooms/MachineRoom_OPT.prefab
+  - m_GUID: 8f2e90ce990539043b66e1319d138079
+    m_Address: Assets/Prefabs/Rooms/Room2SL_OPT.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8f2e90ce990539043b66e1319d138079
-    m_Address: Assets/Prefabs/Rooms/Room2SL_OPT.prefab
+  - m_GUID: 1272288dc1986c94cbb90dd988a191a1
+    m_Address: Assets/Prefabs/Rooms/Room2Testroom2_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b2f6663ffbcdf7f4ca3872ae9a8c95a8
+    m_Address: Assets/Prefabs/Rooms/Room3_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4aa930b58e0af5448b8a411569e27776
+    m_Address: Assets/Prefabs/Rooms/Room4_2_OPT.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 042a0cffef18b7049b40eb53d6f989b4
+    m_Address: Assets/Prefabs/Rooms/HCZFAKER.prefab
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0

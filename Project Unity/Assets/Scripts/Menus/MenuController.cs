@@ -29,4 +29,24 @@ public class MenuController : MonoBehaviour
         Application.Quit();
         Debug.Log("Closing Executable.");
     }
+
+    public void OpenSkethfab()
+    {
+        Application.OpenURL("https://sketchfab.com/ThatJamGuy");
+    }
+
+    public void OpenItch()
+    {
+        Application.OpenURL("https://thatjamguy.itch.io");
+    }
+
+    public void OpenYouTube()
+    {
+        Application.OpenURL("https://www.youtube.com/channel/UCFKWusqC2MCykahD247P3bw");
+    }
+
+    public void OpenDiscord()
+    {
+        Application.OpenURL("https://discord.gg/fthrWUtZyS");
+    }
 }
