@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
 public class Player : MonoBehaviour
@@ -20,6 +21,13 @@ public class Player : MonoBehaviour
     [SerializeField] private float bobbingSpeed = 0.18f;
     [SerializeField] private float bobbingAmount = 0.2f;
     [SerializeField] private GameObject groundDetect;
+
+    [Header("Blinking")]
+    public Image blackOverlay;
+    public Slider blinkSlider;
+    public Animator fullBlackAnimator;
+    public float blinkTime = 10f;
+    public bool isBlinking = false;
 
     [HideInInspector] public bool canMove = true;
 
@@ -48,6 +56,7 @@ public class Player : MonoBehaviour
         MoveCharacterController();
         RotatePlayerAndCamera();
         ApplyHeadbobbing();
+        HandleBlinking();
 
         groundDetect.transform.position = playerCamera.transform.position;
     }
@@ -118,6 +127,34 @@ public class Player : MonoBehaviour
                 originalCameraPosition,
                 Time.deltaTime * bobbingSpeed
             );
+        }
+    }
+
+    void HandleBlinking()
+    {
+        blinkSlider.value = blinkTime / 10f;
+
+        if (blinkTime > 0f)
+        {
+            blinkTime -= Time.deltaTime;
+        }
+        else
+        {
+            fullBlackAnimator.SetBool("finishedBlink", true);
+            fullBlackAnimator.Play("BlinkInToHold");
+            blinkTime = 10f;
+        }
+
+        if (Input.GetKey(KeyCode.Space))
+        {
+            blinkTime = 0f;
+            isBlinking = true;
+            fullBlackAnimator.SetBool("finishedBlink", false);
+        }
+        else
+        {
+            isBlinking = false;
+            fullBlackAnimator.SetBool("finishedBlink", true);
         }
     }
 }

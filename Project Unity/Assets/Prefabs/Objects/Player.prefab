@@ -358,6 +358,14 @@ MonoBehaviour:
   bobbingSpeed: 7
   bobbingAmount: 0.1
   groundDetect: {fileID: 4039495359348013715}
+  fullBlack: {fileID: 0}
+  blinkSlider: {fileID: 0}
+  fullBlackAnimator: {fileID: 0}
+  blinkTime: 10
+  fadeInTime: 0.3
+  holdTime: 0.3
+  fadeOutTime: 0.3
+  isBlinking: 0
   canMove: 1
 --- !u!114 &3650356279168480053
 MonoBehaviour:

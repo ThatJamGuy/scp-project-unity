@@ -563,20 +563,22 @@ MonoBehaviour:
     - Actually RPC makes the game crash so nvmd
 
     -
-    Modified the scrollbar in the Change Log
+    Added blinking
 
-    - Modified some lights in SCP-914s
-    chamber
+    - Modified the scrollbar in the Change Log
+
+    - Modified
+    some lights in SCP-914s chamber
 
     - Modified the door button script
 
-    - Fixed an incorrect material
-    in Room2SL_OPT
+    -
+    Fixed an incorrect material in Room2SL_OPT
 
-    - Fixed emission mapping on the Misc material
+    - Fixed emission mapping on the
+    Misc material
 
-    - Fixed
-    some other things.'
+    - Fixed some other things.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
@@ -1449,7 +1451,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: '<u>v0.0.2</u>
 
-    - Initial [public] Update. For previos version history,
+    - Initial [public] Update. For previous version history,
     visit the GitHub page.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
@@ -6315,7 +6317,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Click the big blue button to view update history I guess.
+  m_text: Click the big blue button to view update history.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
