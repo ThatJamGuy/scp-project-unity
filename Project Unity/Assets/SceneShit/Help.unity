@@ -565,18 +565,25 @@ MonoBehaviour:
     -
     Added blinking
 
+    - Added a basic pause menu
+
+    - Added a ThatJamGuy splash
+    screen
+
     - Modified the scrollbar in the Change Log
 
-    - Modified
-    some lights in SCP-914s chamber
+    - Modified some lights
+    in SCP-914s chamber
 
     - Modified the door button script
 
-    -
-    Fixed an incorrect material in Room2SL_OPT
+    - Fixed an incorrect
+    material in Room2SL_OPT
 
-    - Fixed emission mapping on the
-    Misc material
+    - Fixed emission mapping on the Misc material
+
+    -
+    Fixed the timing of some Commotion sounds
 
     - Fixed some other things.'
   m_isRightToLeft: 0
@@ -3230,7 +3237,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &859786041
 RectTransform:
   m_ObjectHideFlags: 0

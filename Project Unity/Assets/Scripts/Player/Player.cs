@@ -29,6 +29,9 @@ public class Player : MonoBehaviour
     public float blinkTime = 10f;
     public bool isBlinking = false;
 
+    [Header("References")]
+    public PauseMenu pauseMenu;
+
     [HideInInspector] public bool canMove = true;
 
     private CharacterController characterController;
@@ -90,7 +93,7 @@ public class Player : MonoBehaviour
 
     void RotatePlayerAndCamera()
     {
-        if (canMove)
+        if (canMove && !pauseMenu.isPaused)
         {
             rotationX += -Input.GetAxis("Mouse Y") * lookSpeed;
             rotationX = Mathf.Clamp(rotationX, -lookXLimit, lookXLimit);
