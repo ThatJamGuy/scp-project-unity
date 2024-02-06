@@ -34,7 +34,9 @@ Although this project is gaining more features and bug-fixes, it still is not in
 - VirtualBrightPlayz | RMesh conversion scripts
 
 # External Links
-Regalis11 SCPCB:  https://github.com/Regalis11/scpcb
+Itch page: https://thatjamguy.itch.io/scp-project-unity
+
+Regalis11 SCPCB: https://github.com/Regalis11/scpcb
 
 GasimoCodes MapGen: https://github.com/GasimoCodes/MapGen
 
