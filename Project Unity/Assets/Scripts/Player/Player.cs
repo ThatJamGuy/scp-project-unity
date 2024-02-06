@@ -24,10 +24,17 @@ public class Player : MonoBehaviour
 
     [Header("Blinking")]
     public Image blackOverlay;
-    public Slider blinkSlider;
-    public Animator fullBlackAnimator;
-    public float blinkTime = 10f;
+    [SerializeField] Slider blinkSlider;
+    [SerializeField] Animator fullBlackAnimator;
+    [SerializeField] float blinkTime = 10f;
     public bool isBlinking = false;
+
+    [Header("Stamina")]
+    [SerializeField] Slider staminaBar;
+    [SerializeField] float maxStamina = 100f;
+    [SerializeField] float decreaseRate = 1.0f;
+    [SerializeField] float increaseRate = 0.5f;
+    float currentStamina;
 
     [Header("References")]
     public PauseMenu pauseMenu;
@@ -50,6 +57,9 @@ public class Player : MonoBehaviour
 
         originalYPos = playerCamera.transform.localPosition.y;
         originalCameraPosition = playerCamera.transform.localPosition;
+
+        currentStamina = maxStamina;
+        staminaBar.maxValue = maxStamina;
     }
 
     void Update()
@@ -61,6 +71,7 @@ public class Player : MonoBehaviour
         ApplyHeadbobbing();
         HandleBlinking();
 
+        staminaBar.value = currentStamina / maxStamina;
         groundDetect.transform.position = playerCamera.transform.position;
     }
 
@@ -72,8 +83,26 @@ public class Player : MonoBehaviour
         bool isRunning = Input.GetKey(KeyCode.LeftShift);
         isSprinting = isRunning;
 
-        float curSpeedX = canMove ? (isRunning ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Vertical") : 0;
-        float curSpeedY = canMove ? (isRunning ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Horizontal") : 0;
+        // Adjust speed based on stamina
+        float curSpeedX = canMove ? (isRunning && currentStamina > 0 ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Vertical") : 0;
+        float curSpeedY = canMove ? (isRunning && currentStamina > 0 ? sprintSpeed : walkSpeed) * Input.GetAxisRaw("Horizontal") : 0;
+
+        // Decrease stamina while sprinting
+        if (isRunning && currentStamina > 0)
+        {
+            currentStamina -= decreaseRate * Time.deltaTime;
+        }
+        // Regenerate stamina when not sprinting
+        else if (!isRunning && currentStamina < maxStamina)
+        {
+            currentStamina += increaseRate * Time.deltaTime;
+        }
+
+        // Forcefully stop sprinting if stamina reaches zero
+        if (isRunning && currentStamina <= 0)
+        {
+            isSprinting = false;
+        }
 
         moveDirection = (forward * curSpeedX) + (right * curSpeedY);
     }
