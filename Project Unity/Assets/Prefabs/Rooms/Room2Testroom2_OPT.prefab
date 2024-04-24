@@ -697,7 +697,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2745841934412298736}
-  - component: {fileID: -64582632726670335}
   m_Layer: 6
   m_Name: Room2Testroom2_OPT
   m_TagString: Room
@@ -724,37 +723,6 @@ Transform:
   - {fileID: 5478499999001223311}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-64582632726670335
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5009311592919527084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: dbbbc07ad5f24cc499184d3d362dc61c, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!1 &5046922229370577468
 GameObject:
   m_ObjectHideFlags: 0
@@ -2415,8 +2383,37 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 182628625070314390}
   m_SourcePrefab: {fileID: 100100000, guid: 33c300d64be559746ae376bdca452066, type: 3}
+--- !u!1 &116371953894528006 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+    type: 3}
+  m_PrefabInstance: {fileID: 2226509298119438321}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &182628625070314390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 116371953894528006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
 --- !u!4 &5855477014708536995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5738979258960292178, guid: 33c300d64be559746ae376bdca452066,
@@ -2544,7 +2541,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 276669457336964984}
   m_SourcePrefab: {fileID: 100100000, guid: 33c300d64be559746ae376bdca452066, type: 3}
 --- !u!4 &3656763049246701536 stripped
 Transform:
@@ -2552,3 +2553,28 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 9014972409860988594}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &7088899325006636357 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+    type: 3}
+  m_PrefabInstance: {fileID: 9014972409860988594}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &276669457336964984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088899325006636357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff

@@ -5171,7 +5171,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8528901485202561290}
-  - component: {fileID: -460104127150274400}
+  - component: {fileID: -8232479472893746781}
   m_Layer: 0
   m_Name: 173
   m_TagString: Untagged
@@ -5196,10 +5196,9 @@ Transform:
   - {fileID: 3617783467925717900}
   - {fileID: 9175022726300543446}
   - {fileID: 301471517947544688}
-  - {fileID: 2186529651838415970}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-460104127150274400
+--- !u!114 &-8232479472893746781
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5218,7 +5217,7 @@ MonoBehaviour:
   m_LayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_UseGeometry: 1
+  m_UseGeometry: 0
   m_DefaultArea: 0
   m_GenerateLinks: 0
   m_IgnoreNavMeshAgent: 1
@@ -5228,7 +5227,7 @@ MonoBehaviour:
   m_OverrideVoxelSize: 0
   m_VoxelSize: 0.16666667
   m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: db9dfd47d7a307444af19ddcbd5ebfad, type: 2}
+  m_NavMeshData: {fileID: 0}
   m_BuildHeightMesh: 0
 --- !u!1 &8952295511899327615
 GameObject:
@@ -5664,80 +5663,6 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
---- !u!1001 &3103934784310289813
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 8528901485202561290}
-    m_Modifications:
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.48427206
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.00000047683716
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 7.8595624
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7300005482951904982, guid: b1d4b967b3292624eb6237d8210e18fb,
-        type: 3}
-      propertyPath: m_Name
-      value: SCP_173
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: b1d4b967b3292624eb6237d8210e18fb, type: 3}
---- !u!4 &2186529651838415970 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3840296283535626743, guid: b1d4b967b3292624eb6237d8210e18fb,
-    type: 3}
-  m_PrefabInstance: {fileID: 3103934784310289813}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &7505696878127090909
 PrefabInstance:
   m_ObjectHideFlags: 0

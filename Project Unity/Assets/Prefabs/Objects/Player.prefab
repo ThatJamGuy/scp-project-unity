@@ -363,11 +363,13 @@ MonoBehaviour:
   fullBlackAnimator: {fileID: 0}
   blinkTime: 10
   isBlinking: 0
-  maxStamina: 100
-  staminaRegenerationRate: 5
-  staminaDrainRate: 30
   staminaBar: {fileID: 0}
+  maxStamina: 1
+  decreaseRate: 0.1
+  increaseRate: 0.1
+  health: 0
   pauseMenu: {fileID: 0}
+  deathMenu: {fileID: 0}
   canMove: 1
 --- !u!114 &3650356279168480053
 MonoBehaviour:

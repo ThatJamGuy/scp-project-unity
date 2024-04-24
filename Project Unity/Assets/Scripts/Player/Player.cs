@@ -36,8 +36,13 @@ public class Player : MonoBehaviour
     [SerializeField] float increaseRate = 0.5f;
     float currentStamina;
 
+    [Header("Health")]
+    public int health;
+    //[SerializeField] private bool isDead;
+
     [Header("References")]
     public PauseMenu pauseMenu;
+    public DeathMenu deathMenu;
 
     [HideInInspector] public bool canMove = true;
 
@@ -73,6 +78,9 @@ public class Player : MonoBehaviour
 
         staminaBar.value = currentStamina / maxStamina;
         groundDetect.transform.position = playerCamera.transform.position;
+
+        if(health <= 0)
+            KillPlayer();
     }
 
     void HandleMovementInput()
@@ -188,5 +196,11 @@ public class Player : MonoBehaviour
             isBlinking = false;
             fullBlackAnimator.SetBool("finishedBlink", true);
         }
+    }
+
+    public void KillPlayer()
+    {
+        //isDead = true;
+        deathMenu.Die();
     }
 }

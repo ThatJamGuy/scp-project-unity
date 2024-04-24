@@ -42,7 +42,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4616440892121609145}
-  - component: {fileID: -3054463826665537552}
   m_Layer: 6
   m_Name: Room2Closets_OPT
   m_TagString: Room
@@ -70,37 +69,6 @@ Transform:
   - {fileID: 8400029312930840560}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &-3054463826665537552
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485049589805108644}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a5ac11cc976e418e8d13136b07e1f52, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_AgentTypeID: 0
-  m_CollectObjects: 0
-  m_Size: {x: 10, y: 10, z: 10}
-  m_Center: {x: 0, y: 2, z: 0}
-  m_LayerMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_UseGeometry: 0
-  m_DefaultArea: 0
-  m_GenerateLinks: 0
-  m_IgnoreNavMeshAgent: 1
-  m_IgnoreNavMeshObstacle: 1
-  m_OverrideTileSize: 0
-  m_TileSize: 256
-  m_OverrideVoxelSize: 0
-  m_VoxelSize: 0.16666667
-  m_MinRegionArea: 2
-  m_NavMeshData: {fileID: 23800000, guid: 84d96d2f48da2574787d929e24dbe1d9, type: 2}
-  m_BuildHeightMesh: 0
 --- !u!1 &1095676674483384065
 GameObject:
   m_ObjectHideFlags: 0
@@ -1870,10 +1838,10 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
+    - targetCorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       insertIndex: -1
-      addedObject: {fileID: 8830965335799768074}
+      addedObject: {fileID: 5599605025502181643}
     - targetCorrespondingSourceObject: {fileID: 4373127635905898855, guid: 33c300d64be559746ae376bdca452066,
         type: 3}
       insertIndex: -1
@@ -1911,31 +1879,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 7258290167838805028}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &5832334977304315503 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3767891870276995659, guid: 33c300d64be559746ae376bdca452066,
-    type: 3}
-  m_PrefabInstance: {fileID: 7258290167838805028}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &8830965335799768074
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5832334977304315503}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_OverrideArea: 1
-  m_Area: 0
-  m_OverrideGenerateLinks: 0
-  m_GenerateLinks: 0
-  m_IgnoreFromBuild: 0
-  m_ApplyToChildren: 1
-  m_AffectedAgents: ffffffff
 --- !u!1 &6344120629761107267 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4373127635905898855, guid: 33c300d64be559746ae376bdca452066,
@@ -1958,3 +1901,28 @@ NavMeshObstacle:
   m_CarveOnlyStationary: 1
   m_Center: {x: 0, y: 0, z: 0.12100001}
   m_TimeToStationary: 0.5
+--- !u!1 &8917665711716759507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2268487943845903351, guid: 33c300d64be559746ae376bdca452066,
+    type: 3}
+  m_PrefabInstance: {fileID: 7258290167838805028}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5599605025502181643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8917665711716759507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e3fdca004f2d45fe8abbed571a8abd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_OverrideArea: 1
+  m_Area: 0
+  m_OverrideGenerateLinks: 0
+  m_GenerateLinks: 0
+  m_IgnoreFromBuild: 0
+  m_ApplyToChildren: 1
+  m_AffectedAgents: ffffffff
