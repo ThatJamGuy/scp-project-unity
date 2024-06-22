@@ -1,20 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class OptionsScreen : MonoBehaviour
 {
-    public Toggle fullscreenTog, vsyncTog;
+    [Header("Toggles")]
+    public Toggle fullscreenTog, vsyncTog, fpsCounterTog;
+
+    [Header("Other Stuff")]
+    public static bool showFPSCounter;
 
     private void Start()
     {
         fullscreenTog.isOn = Screen.fullScreen;
+        fpsCounterTog.isOn = false;
 
-        if(QualitySettings.vSyncCount == 0)
+        if (QualitySettings.vSyncCount == 0)
             vsyncTog.isOn = false;
         else
-            vsyncTog.isOn= true;
+            vsyncTog.isOn = true;
     }
 
     public void ApplyGraphics()
@@ -25,5 +28,10 @@ public class OptionsScreen : MonoBehaviour
             QualitySettings.vSyncCount = 1;
         else
             QualitySettings.vSyncCount = 0;
+    }
+
+    public void ApplyFPS()
+    {
+        showFPSCounter = fpsCounterTog.isOn;
     }
 }
