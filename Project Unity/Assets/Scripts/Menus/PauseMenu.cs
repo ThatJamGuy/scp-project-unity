@@ -8,7 +8,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape) && !isPaused)
+        if (Input.GetKeyDown(KeyCode.Escape) && !isPaused)
         {
             Pause();
         }
@@ -37,6 +37,6 @@ public class PauseMenu : MonoBehaviour
     public void QuitToMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Help");
+        SceneManager.LoadScene("MainMenu");
     }
 }

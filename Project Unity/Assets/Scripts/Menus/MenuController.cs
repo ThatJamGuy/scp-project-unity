@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
-    public string firstLevel;
+    [SerializeField] private string firstLevel;
 
-    public GameObject optionsScreen;
+    [SerializeField] private GameObject optionsScreen;
 
     public void StartGame()
     {

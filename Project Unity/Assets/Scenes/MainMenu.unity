@@ -5585,7 +5585,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401ba5102977654c9583c3cd6674f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firstLevel: OutdoorsScene
+  firstLevel: Game01
   optionsScreen: {fileID: 1280808058}
 --- !u!1 &1067726054
 GameObject:

@@ -19,6 +19,6 @@ public class DeathMenu : MonoBehaviour
     public void QuitToMenu()
     {
         Time.timeScale = 1;
-        SceneManager.LoadScene("Help");
+        SceneManager.LoadScene("MainMenu");
     }
 }
