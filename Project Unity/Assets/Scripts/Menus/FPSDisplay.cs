@@ -5,34 +5,29 @@ public class FPSDisplay : MonoBehaviour
 {
     public TextMeshProUGUI fpsText;
 
-    private float pollingTime = 1f;
+    private const float PollingTime = 1f;
     private float time;
     private int frameCount;
 
     private void Start()
     {
-        if (OptionsScreen.showFPSCounter)
-        {
-            fpsText.gameObject.SetActive(true);
-        }
+        if (!OptionsScreen.showFPSCounter) return;
+        fpsText.gameObject.SetActive(true);
     }
 
     private void Update()
     {
-        if (OptionsScreen.showFPSCounter)
+        if (!OptionsScreen.showFPSCounter) return;
+
+        time += Time.deltaTime;
+        frameCount++;
+
+        if (time >= PollingTime)
         {
-            time += Time.deltaTime;
-
-            frameCount++;
-
-            if (time >= pollingTime)
-            {
-                int frameRate = Mathf.RoundToInt(frameCount / time);
-                fpsText.text = frameRate.ToString() + " FPS";
-
-                time -= pollingTime;
-                frameCount = 0;
-            }
+            var frameRate = Mathf.RoundToInt(frameCount / time);
+            fpsText.text = $"{frameRate} FPS";
+            time -= PollingTime;
+            frameCount = 0;
         }
     }
 }

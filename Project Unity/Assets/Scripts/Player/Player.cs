@@ -1,6 +1,4 @@
-using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 [RequireComponent(typeof(CharacterController))]
@@ -79,7 +77,7 @@ public class Player : MonoBehaviour
         staminaBar.value = currentStamina / maxStamina;
         groundDetect.transform.position = playerCamera.transform.position;
 
-        if(health <= 0)
+        if (health <= 0)
             KillPlayer();
     }
 
