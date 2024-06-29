@@ -6,10 +6,21 @@ public class MenuController : MonoBehaviour
     [SerializeField] private string firstLevel;
 
     [SerializeField] private GameObject optionsScreen;
+    [SerializeField] private GameObject newGameScreen;
 
     public void StartGame()
     {
         SceneManager.LoadScene(firstLevel);
+    }
+
+    public void OpenNewGame()
+    {
+        newGameScreen.SetActive(true);
+    }
+
+    public void CloseNewGame()
+    {
+        newGameScreen.SetActive(false);
     }
 
     public void OpenOptions()

@@ -10,12 +10,14 @@ public class BreachManager : MonoBehaviour
 
     [Header("Audio")]
     [SerializeField] AudioClip breachSequence;
+    [SerializeField] AudioClip alarmSource;
     [SerializeField] AudioClip[] ambience;
     [SerializeField] AudioClip[] commotion;
     public AudioClip zone1Music;
 
     [Header("Audio Sources")]
     [SerializeField] AudioSource breachSource;
+    [SerializeField] AudioSource breachAlarm;
     [SerializeField] AudioSource ambienceSource;
     [SerializeField] AudioSource commotionSource;
     [SerializeField] AudioSource musicSource;
@@ -37,6 +39,9 @@ public class BreachManager : MonoBehaviour
     {
         breachSource.clip = breachSequence;
         breachSource.Play();
+
+        //breachAlarm.clip = alarmSource;
+        //breachAlarm.Play();
     }
 
     public void ChangeMusic(AudioClip newTrack)
@@ -61,7 +66,7 @@ public class BreachManager : MonoBehaviour
 
     IEnumerator Ambience()
     {
-        while(true)
+        while (true)
         {
             if (ambience != null)
             {

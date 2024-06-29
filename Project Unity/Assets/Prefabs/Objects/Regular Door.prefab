@@ -604,6 +604,8 @@ GameObject:
   - component: {fileID: 903051778521222761}
   - component: {fileID: 1878240343169172647}
   - component: {fileID: 4586390176029361244}
+  - component: {fileID: 7865498164635632617}
+  - component: {fileID: 4270176620227077700}
   m_Layer: 3
   m_Name: Door01
   m_TagString: Untagged
@@ -697,6 +699,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.1108136, y: 0.010575922, z: 0.24287489}
   m_Center: {x: 0.000051474206, y: -0.00028795988, z: 0.12147124}
+--- !u!114 &7865498164635632617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373127635905898855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: d780f25df1d231d4aa9a31ab3ba935d0, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
+--- !u!114 &4270176620227077700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4373127635905898855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb43d10a308b2f46ad4561774f97e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000, guid: 28125710490d6ba4391c6770b50a702a, type: 2}
 --- !u!1 &5181659088573924462
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,6 +739,8 @@ GameObject:
   - component: {fileID: 2065359836721244891}
   - component: {fileID: 690810263373830294}
   - component: {fileID: 3427135985540502239}
+  - component: {fileID: 7552211701075318929}
+  - component: {fileID: 4233179599962141223}
   m_Layer: 3
   m_Name: Door02
   m_TagString: Untagged
@@ -802,6 +834,34 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.110813655, y: 0.0105759725, z: 0.24287489}
   m_Center: {x: 0.000051474228, y: -0.00028798496, z: 0.12147124}
+--- !u!114 &7552211701075318929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181659088573924462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e829c87dc2a2ed2419c5f67848317fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 11400000, guid: d780f25df1d231d4aa9a31ab3ba935d0, type: 2}
+  exportAllChildren: 0
+  terrainSimplificationLevel: 0
+--- !u!114 &4233179599962141223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5181659088573924462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fb43d10a308b2f46ad4561774f97e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  asset: {fileID: 11400000, guid: 28125710490d6ba4391c6770b50a702a, type: 2}
 --- !u!1 &7201635277725362395
 GameObject:
   m_ObjectHideFlags: 0
