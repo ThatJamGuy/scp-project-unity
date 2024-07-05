@@ -146,12 +146,14 @@ public class SCP_106 : MonoBehaviour
         miscSFX.Play();
         isMovementActive = true;
         breachManager.ChangeMusic(chaseMusic);
+        Debug.Log("SCP-106 has started the chase");
     }
 
     private void SpeedUpChase()
     {
         agent.speed = 3.5f;
         animator.Play("Fast Walk");
+        Debug.Log("SCP-106 has sped up the chase");
     }
 
     private void EndChase()
@@ -166,6 +168,8 @@ public class SCP_106 : MonoBehaviour
         Quaternion desiredRotation = Quaternion.Euler(90f, 0f, 0f);
         Instantiate(decal, transform.position, desiredRotation);
         DisableAudioSources();
+        isActive = false;
         StartCoroutine(SpawnDelay());
+        Debug.Log("SCP-106 has ended the chase. Waiting to respawn...");
     }
 }

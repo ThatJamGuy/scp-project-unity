@@ -5228,7 +5228,10 @@ MonoBehaviour:
     - Added SCP-106
 
     -
-    Fixed a bug regarding SCP-106 killing the player'
+    Fixed a bug regarding SCP-106 killing the player
+
+    - Fixed a bug regarding
+    SCP-106 respawning'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
