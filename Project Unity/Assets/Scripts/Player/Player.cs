@@ -36,7 +36,7 @@ public class Player : MonoBehaviour
 
     [Header("Health")]
     public int health;
-    //[SerializeField] private bool isDead;
+    public bool isDead = false;
 
     [Header("References")]
     public PauseMenu pauseMenu;
@@ -198,7 +198,7 @@ public class Player : MonoBehaviour
 
     public void KillPlayer()
     {
-        //isDead = true;
+        isDead = true;
         deathMenu.Die();
     }
 }

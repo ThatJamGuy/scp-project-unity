@@ -46,21 +46,22 @@ public class SCP_106 : MonoBehaviour
         {
             agent.SetDestination(player.position);
 
-            if (Vector3.Distance(transform.position, player.position) <= playerRange)
+            if (Vector3.Distance(transform.position, player.position) <= playerRange && !playerScript.isDead)
             {
                 bool canPlaySound = true;
 
                 if (canPlaySound)
                 {
+                    canPlaySound = false;
                     miscSFX.clip = killSound;
                     miscSFX.Play();
-                    canPlaySound = false;
                 }
 
                 playerScript.KillPlayer();
+                EndChase();
 
-                breachManager.ChangeMusic(breachManager.zone1Music);
-                //gameObject.transform.position = new Vector3(0, 0, 0);
+                //breachManager.ChangeMusic(breachManager.zone1Music);
+                gameObject.transform.position = new Vector3(0, 0, 0);
             }
         }
     }

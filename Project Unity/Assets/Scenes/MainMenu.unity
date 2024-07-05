@@ -5220,7 +5220,15 @@ MonoBehaviour:
     - Added a guy just chilling in
     the menu
 
-    - Added a Placeholder new game menu'
+    - Added a Placeholder New Game menu
+
+    - Added Steam Audio on
+    some sound producers for realistic audio effects
+
+    - Added SCP-106
+
+    -
+    Fixed a bug regarding SCP-106 killing the player'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
