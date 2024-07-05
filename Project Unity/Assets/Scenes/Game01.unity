@@ -1833,7 +1833,7 @@ PrefabInstance:
     - target: {fileID: 88630668738908372, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7750690167801813524, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
@@ -1888,7 +1888,7 @@ PrefabInstance:
     - target: {fileID: 8758140339596312355, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
       propertyPath: spawnDelay
-      value: 30
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 8758140339596312355, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
