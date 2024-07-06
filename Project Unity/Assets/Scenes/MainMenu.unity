@@ -1487,10 +1487,13 @@ MonoBehaviour:
     -
     Added a Map Seed input for user defined generations
 
-    - Added back the menu
-    fading
+    - Added a button to
+    recover previous seed generations
 
-    - General code cleanup'
+    - Added back the menu fading
+
+    - General
+    code cleanup'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,
@@ -5262,7 +5265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &859786041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -9997,7 +10000,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1857667356
 RectTransform:
   m_ObjectHideFlags: 0
