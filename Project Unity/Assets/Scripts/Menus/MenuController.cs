@@ -23,6 +23,13 @@ public class MenuController : MonoBehaviour
         ValidateSeed();
     }
 
+    // Get the last generated seed saved in BreachManager and set the input to that
+    public void GetLastGeneratedSeed()
+    {
+        int lastGeneratedSeed = PlayerPrefs.GetInt("LastGeneratedSeed", 0);
+        seedInputField.text = lastGeneratedSeed.ToString();
+    }
+
     private void ValidateSeed()
     {
         seed = int.TryParse(seedInputField.text, out var parsedSeed) ? parsedSeed : 0;

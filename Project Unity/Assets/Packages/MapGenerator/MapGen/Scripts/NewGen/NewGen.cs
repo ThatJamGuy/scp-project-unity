@@ -1,8 +1,7 @@
+using ALOB.Editor;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
-using System;
-using ALOB.Editor;
 
 namespace ALOB.Map
 {
@@ -50,6 +49,9 @@ namespace ALOB.Map
         public bool disablePathRoomPlacement = false;
         public bool cleanUpOnFail = true;
 
+        [Header("Sseed things")]
+        public static int newGenGeneratedSeed;
+
 
 
         #endregion
@@ -69,6 +71,8 @@ namespace ALOB.Map
 
             // Generate random seed
             randomGen = new System.Random(mapSeed);
+
+            newGenGeneratedSeed = mapSeed;
 
             MapGenLogger.Log("<color=blue>[Gen] Started generating map seed: " + mapSeed + "</color>");
 
@@ -109,8 +113,8 @@ namespace ALOB.Map
                     bool failed = new MM_ConPlacer(randomGen, gMP, false, maxIterationsBeforeFallback).PerZoneModule(ref zoneGrid[x, y]);
 
                     // Populates the grid with containers for rooms which must spawn.
-                    if(!failed)
-                    failed = new MM_MustSpawnRooms(randomGen, gMP, disableBFS, maxIterationsBeforeFallback).PerZoneModule(ref zoneGrid[x, y]);
+                    if (!failed)
+                        failed = new MM_MustSpawnRooms(randomGen, gMP, disableBFS, maxIterationsBeforeFallback).PerZoneModule(ref zoneGrid[x, y]);
 
                     // Find paths to connect all rooms together
                     if (!disableAStar && !failed)
@@ -347,18 +351,19 @@ namespace ALOB.Map
                                             {
                                                 Gizmos.color = new Color(0, 0, 1, 0.1f);
                                             }
-                                            
+
                                             // TEXT RENDERING
                                             name = cD.loc + "/" + cD.getRoom().getData().name + "\n" + cD.getRoom().angle;
 
-                                        } else
+                                        }
+                                        else
                                         {
                                             Gizmos.color = new Color(1, 0, 0, 0.1f);
                                             name = cD.loc.ToString();
                                         }
 
 
-                                        
+
                                         break;
                                     }
                                 case containerType.RESERVED:

@@ -11,6 +11,10 @@ public class BreachManager : MonoBehaviour
     [Tooltip("Set value to 0 for random")]
     public int generationSeed;
 
+    // This will be set to the result of the seed upon generation and will be saved for the menu to access
+    [Tooltip("What the current seed of the map is")]
+    public int currentSeed;
+
     [Header("Values")]
     public float musicFadeDuration = 1.0f;
 
@@ -32,8 +36,11 @@ public class BreachManager : MonoBehaviour
 
     private void OnEnable()
     {
+        // Set the seed to the one defined in the menu
         generationSeed = MenuController.seed;
         RegenerateNewGen.seed = generationSeed;
+
+        StartCoroutine(GetCurrentSeedAfterSeconds(0.1f));
     }
 
     private void Start()
@@ -68,6 +75,24 @@ public class BreachManager : MonoBehaviour
         {
             commotionSource.Stop();
         }
+    }
+
+    // Save lesser data like that last generated seed. Will be accessed by main menu
+    public void SavePrefs()
+    {
+        PlayerPrefs.SetInt("LastGeneratedSeed", currentSeed);
+        PlayerPrefs.Save();
+    }
+
+    IEnumerator GetCurrentSeedAfterSeconds(float seconds)
+    {
+        yield return new WaitForSeconds(seconds);
+
+        // Get the processed seed from NewGen after seconds and set the currentSeed to that
+        currentSeed = NewGen.newGenGeneratedSeed;
+        Debug.Log("The current seed is " + currentSeed);
+
+        SavePrefs();
     }
 
     IEnumerator Ambience()
