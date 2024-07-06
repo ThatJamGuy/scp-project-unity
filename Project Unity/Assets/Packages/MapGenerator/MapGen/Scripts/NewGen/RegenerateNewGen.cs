@@ -1,18 +1,14 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using NaughtyAttributes;
-using System.Reflection;
-using UnityEditor;
-using System.Threading;
 using System;
+using System.Reflection;
+using UnityEngine;
 
 namespace ALOB.Map
 {
     public class RegenerateNewGen : MonoBehaviour
     {
         [Header("0 = Random")]
-        public int seed = 0;
+        public static int seed = 0;
 
 #if UNITY_EDITOR
 

@@ -1,8 +1,14 @@
+using ALOB.Map;
 using System.Collections;
 using UnityEngine;
 
 public class BreachManager : MonoBehaviour
 {
+    [Header("Map Generation")]
+
+    [Tooltip("Set value to 0 for random")]
+    public int generationSeed;
+
     [Header("Values")]
     public float musicFadeDuration = 1.0f;
 
@@ -23,6 +29,12 @@ public class BreachManager : MonoBehaviour
     [SerializeField] AudioSource musicSource;
 
     private int currentCommotionIndex = 0;
+
+    private void OnEnable()
+    {
+        generationSeed = MenuController.seed;
+        RegenerateNewGen.seed = generationSeed;
+    }
 
     private void Start()
     {

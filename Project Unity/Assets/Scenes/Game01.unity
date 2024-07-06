@@ -1830,11 +1830,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SCP_106
       objectReference: {fileID: 0}
-    - target: {fileID: 88630668738908372, guid: 67501ca8acb44dd43a3307f864b6ffaa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7750690167801813524, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1884,11 +1879,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8758140339596312355, guid: 67501ca8acb44dd43a3307f864b6ffaa,
-        type: 3}
-      propertyPath: spawnDelay
-      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 8758140339596312355, guid: 67501ca8acb44dd43a3307f864b6ffaa,
         type: 3}
@@ -3392,7 +3382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62f08020359885c40ada2c2e9371456e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seed: 0
 --- !u!114 &1783993600
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3405,6 +3394,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50c21e1da4caf1240985e4a6a8cd09fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  generationSeed: 1234
   musicFadeDuration: 1
   breachSequence: {fileID: 8300000, guid: 4522c32dcbbe68445976ad2ee1e1c6fb, type: 3}
   alarmSource: {fileID: 8300000, guid: 969f36a98f2ee0f4381e71fe5420dfc5, type: 3}

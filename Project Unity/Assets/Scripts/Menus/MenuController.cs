@@ -1,16 +1,39 @@
+using TMPro;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour
 {
+    [SerializeField] private GameObject randomizedInfoTextObject;
+    [SerializeField] private TMP_InputField seedInputField;
+
+    public static int seed = 0;
+
     [SerializeField] private string firstLevel;
 
     [SerializeField] private GameObject optionsScreen;
     [SerializeField] private GameObject newGameScreen;
 
-    public void StartGame()
+    // Checks if the seed input is 0. If so, display the info saying that the seed will be random upon generation
+    private void Update()
     {
-        SceneManager.LoadScene(firstLevel);
+        if (seedInputField.text == "0")
+            randomizedInfoTextObject.SetActive(true);
+        else
+            randomizedInfoTextObject.SetActive(false);
+    }
+
+    // Get the seed from the seed input and set the seed value to it
+    // If no valid seed is detected, automatcically set it to 0
+    public void TransferSeedValue()
+    {
+        seed = int.Parse(seedInputField.text);
+
+        if (seedInputField == null)
+        {
+            seedInputField.text = "0";
+
+            seed = int.Parse(seedInputField.text);
+        }
     }
 
     public void OpenNewGame()
