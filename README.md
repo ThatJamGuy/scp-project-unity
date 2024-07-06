@@ -31,7 +31,7 @@ Although this project is gaining more features and bug-fixes, it still is not in
 - ThatJamGuy | Main dev, so programming, all the engine stuff, etc.
 - Regalis / Everyone else that helped with SCP:CB | All the OG SCP:CB Assets
 - GasimoCodes | Map Generation scripts
-- VirtualBrightPlayz | RMesh conversion scripts
+- VirtualBrightPlayz | RMesh conversion scripts (Depracted)
 
 # External Links
 Itch page: https://thatjamguy.itch.io/scp-project-unity
