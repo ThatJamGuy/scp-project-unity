@@ -2,17 +2,17 @@ using ALOB.Map;
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// Manages various Breach Mode aspects, mostly centered around audio at the moment
+/// </summary>
 public class BreachManager : MonoBehaviour
 {
     [Header("Map Generation")]
-
     [Tooltip("Set value to 0 for random")]
     public int generationSeed;
 
     [Header("Values")]
     public float musicFadeDuration = 1.0f;
-
-    //private bool isFading = false;
 
     [Header("Audio")]
     [SerializeField] AudioClip breachSequence;
@@ -41,19 +41,13 @@ public class BreachManager : MonoBehaviour
         StartBreach();
         PlayNextCommotion();
         StartCoroutine(Ambience());
-
-        // Set initial music source
-        musicSource.clip = zone1Music;
-        musicSource.Play();
+        SetInitialMusicSource(zone1Music);
     }
 
     public void StartBreach()
     {
         breachSource.clip = breachSequence;
         breachSource.Play();
-
-        //breachAlarm.clip = alarmSource;
-        //breachAlarm.Play();
     }
 
     public void ChangeMusic(AudioClip newTrack)
@@ -68,7 +62,7 @@ public class BreachManager : MonoBehaviour
             commotionSource.clip = commotion[currentCommotionIndex];
             commotionSource.Play();
             currentCommotionIndex++;
-            Invoke("PlayNextCommotion", 15f);
+            Invoke(nameof(PlayNextCommotion), 15f);
         }
         else
         {
@@ -80,7 +74,7 @@ public class BreachManager : MonoBehaviour
     {
         while (true)
         {
-            if (ambience != null)
+            if (ambience != null && ambience.Length > 0)
             {
                 int rand = Random.Range(0, ambience.Length);
                 ambienceSource.panStereo = Random.Range(-1, 1);
@@ -93,8 +87,6 @@ public class BreachManager : MonoBehaviour
 
     public IEnumerator CrossfadeMusic(AudioClip newTrack)
     {
-        //isFading = true;
-
         float currentTime = 0f;
         float startVolume = musicSource.volume;
 
@@ -107,7 +99,6 @@ public class BreachManager : MonoBehaviour
         }
 
         musicSource.Stop();
-
         musicSource.clip = newTrack;
         musicSource.Play();
 
@@ -120,7 +111,11 @@ public class BreachManager : MonoBehaviour
             musicSource.volume = Mathf.Lerp(0f, startVolume, t);
             yield return null;
         }
+    }
 
-        //isFading = false;
+    private void SetInitialMusicSource(AudioClip clip)
+    {
+        musicSource.clip = clip;
+        musicSource.Play();
     }
 }

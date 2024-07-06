@@ -13,27 +13,25 @@ public class MenuController : MonoBehaviour
     [SerializeField] private GameObject optionsScreen;
     [SerializeField] private GameObject newGameScreen;
 
-    // Checks if the seed input is 0. If so, display the info saying that the seed will be random upon generation
-    private void Update()
+    private void Start()
     {
-        if (seedInputField.text == "0")
-            randomizedInfoTextObject.SetActive(true);
-        else
-            randomizedInfoTextObject.SetActive(false);
+        ValidateSeed();
     }
 
-    // Get the seed from the seed input and set the seed value to it
-    // If no valid seed is detected, automatcically set it to 0
+    private void Update()
+    {
+        ValidateSeed();
+    }
+
+    private void ValidateSeed()
+    {
+        seed = int.TryParse(seedInputField.text, out var parsedSeed) ? parsedSeed : 0;
+        randomizedInfoTextObject.SetActive(seed == 0);
+    }
+
     public void TransferSeedValue()
     {
-        seed = int.Parse(seedInputField.text);
-
-        if (seedInputField == null)
-        {
-            seedInputField.text = "0";
-
-            seed = int.Parse(seedInputField.text);
-        }
+        seed = int.TryParse(seedInputField.text, out var parsedSeed) ? parsedSeed : 0;
     }
 
     public void OpenNewGame()
@@ -58,7 +56,11 @@ public class MenuController : MonoBehaviour
 
     public void QuitGame()
     {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#else
         Application.Quit();
+#endif
         Debug.Log("Closing Executable.");
     }
 

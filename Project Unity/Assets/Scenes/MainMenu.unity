@@ -1355,7 +1355,9 @@ MonoBehaviour:
     Added a Map Seed input for user defined generations
 
     - Added back the menu
-    fading'
+    fading
+
+    - General code cleanup'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,

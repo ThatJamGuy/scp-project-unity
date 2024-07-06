@@ -28,7 +28,6 @@ public class ASyncLoader : MonoBehaviour
         {
             float progressValue = Mathf.Clamp01(loadOperation.progress / 0.9f);
             loadingSlider.value = progressValue;
-            Debug.Log(progressValue);
             yield return null;
         }
     }
