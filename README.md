@@ -1,6 +1,6 @@
 # SCP: Project Unity
 Just my attempt at remaking SCP:CB in the Unity Engine. Built on Unity 2022.3.36f1 HDRP.
-Inspired by the cancelled SCP: Unity and Faithful-SCP-Unity repository which recently recieved a new developer earlier this year. (UPDATE: I recently saw the original dev's video and noticed he's coming back to the game, so I wish him luck in finishing it)
+Inspired by the cancelled SCP: Unity and the original SCP: Containment Breach.
 
 ![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/e7ecb7a5-0716-4f52-bb47-f14f1c823e21)
 ![image](https://github.com/ThatJamGuy/scp-project-unity/assets/81861785/f0d66d81-5d98-4cb9-8de3-4599814ca344)
@@ -25,7 +25,7 @@ A lot of SCP:CB Remakes (Or projects that use SCP:CBs assets) exist, but while s
 Now, as one developer that still has a lot to learn, my solutions to stuff likely have better ways to go about them. So, I've made this a public open-source repository for anyone to open and modify to possibly make it better. If anyone does so and makes a good change/addition, I'll merge it with the official repository and proper credit will be given.
 
 # Please Note
-Although this project is gaining more features and bug-fixes, it still is not in a very playable state. You can download and open the project in unity, but don't expect very much from it. Even the main menu (At the time of writing) has to be redone from the changes made during one of the more recent commits.
+Although this project is gaining more features and bug-fixes, it still is not in a very playable state. You can download and open the project in unity, but don't expect very much from it.
 
 # Credits
 - ThatJamGuy | Main dev, so programming, all the engine stuff, etc.
