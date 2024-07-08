@@ -22,7 +22,6 @@ MonoBehaviour:
     - room: {fileID: 11400000, guid: c0cfa773a95c9fa43a92f63bb9d5d99b, type: 2}
     - room: {fileID: 11400000, guid: cb305caa630547946bd34b719467f0d7, type: 2}
     - room: {fileID: 11400000, guid: 8c84c6024bc54f84a9af95eed68fdecc, type: 2}
-    - room: {fileID: 11400000, guid: 852f9bf64aca8204fa7bf755c42db991, type: 2}
     - room: {fileID: 11400000, guid: acb0e5353c50be74ea2c1d9d44932b4c, type: 2}
     - room: {fileID: 11400000, guid: a48fe2ec16a6bd644b3cee3e02e11521, type: 2}
     - room: {fileID: 11400000, guid: f66184667019bc84c994dcdb38129b5a, type: 2}

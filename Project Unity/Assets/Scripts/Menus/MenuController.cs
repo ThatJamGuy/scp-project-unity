@@ -3,6 +3,9 @@ using UnityEngine;
 
 public class MenuController : MonoBehaviour
 {
+    [SerializeField] private AudioClip menuMusic;
+
+    [Header("Other")]
     [SerializeField] private GameObject randomizedInfoTextObject;
     [SerializeField] private TMP_InputField seedInputField;
 
@@ -15,6 +18,8 @@ public class MenuController : MonoBehaviour
 
     private void Start()
     {
+        MusicPlayer.instance.StartMusic(menuMusic);
+
         ValidateSeed();
     }
 

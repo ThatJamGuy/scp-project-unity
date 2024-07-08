@@ -145,7 +145,7 @@ public class SCP_106 : MonoBehaviour
         miscSFX.clip = horror;
         miscSFX.Play();
         isMovementActive = true;
-        breachManager.ChangeMusic(chaseMusic);
+        //breachManager.ChangeMusic(chaseMusic);
         Debug.Log("SCP-106 has started the chase");
     }
 
@@ -158,7 +158,7 @@ public class SCP_106 : MonoBehaviour
 
     private void EndChase()
     {
-        breachManager.ChangeMusic(breachManager.zone1Music);
+        //breachManager.ChangeMusic(breachManager.zone1Music);
         miscSFX.clip = horrorFinished;
         miscSFX.Play();
         decay.Play();

@@ -15,22 +15,18 @@ public class BreachManager : MonoBehaviour
     [Tooltip("What the current seed of the map is")]
     public int currentSeed;
 
-    [Header("Values")]
-    public float musicFadeDuration = 1.0f;
+    [Header("Zone Music")]
+    [SerializeField] private AudioClip zone1Music;
 
-    [Header("Audio")]
+    [Header("General Audio")]
     [SerializeField] AudioClip breachSequence;
     [SerializeField] AudioClip alarmSource;
     [SerializeField] AudioClip[] ambience;
     [SerializeField] AudioClip[] commotion;
-    public AudioClip zone1Music;
 
     [Header("Audio Sources")]
-    [SerializeField] AudioSource breachSource;
-    [SerializeField] AudioSource breachAlarm;
     [SerializeField] AudioSource ambienceSource;
     [SerializeField] AudioSource commotionSource;
-    [SerializeField] AudioSource musicSource;
 
     private int currentCommotionIndex = 0;
 
@@ -45,21 +41,10 @@ public class BreachManager : MonoBehaviour
 
     private void Start()
     {
-        StartBreach();
         PlayNextCommotion();
         StartCoroutine(Ambience());
-        SetInitialMusicSource(zone1Music);
-    }
 
-    public void StartBreach()
-    {
-        breachSource.clip = breachSequence;
-        breachSource.Play();
-    }
-
-    public void ChangeMusic(AudioClip newTrack)
-    {
-        StartCoroutine(CrossfadeMusic(newTrack));
+        MusicPlayer.instance.ChangeMusic(zone1Music);
     }
 
     private void PlayNextCommotion()
@@ -108,39 +93,5 @@ public class BreachManager : MonoBehaviour
                 yield return new WaitForSeconds(Random.Range(10, 30));
             }
         }
-    }
-
-    public IEnumerator CrossfadeMusic(AudioClip newTrack)
-    {
-        float currentTime = 0f;
-        float startVolume = musicSource.volume;
-
-        while (currentTime < musicFadeDuration)
-        {
-            currentTime += Time.deltaTime;
-            float t = currentTime / musicFadeDuration;
-            musicSource.volume = Mathf.Lerp(startVolume, 0f, t);
-            yield return null;
-        }
-
-        musicSource.Stop();
-        musicSource.clip = newTrack;
-        musicSource.Play();
-
-        currentTime = 0f;
-
-        while (currentTime < musicFadeDuration)
-        {
-            currentTime += Time.deltaTime;
-            float t = currentTime / musicFadeDuration;
-            musicSource.volume = Mathf.Lerp(0f, startVolume, t);
-            yield return null;
-        }
-    }
-
-    private void SetInitialMusicSource(AudioClip clip)
-    {
-        musicSource.clip = clip;
-        musicSource.Play();
     }
 }
