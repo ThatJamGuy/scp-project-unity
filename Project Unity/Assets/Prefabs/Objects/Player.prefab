@@ -367,7 +367,8 @@ MonoBehaviour:
   maxStamina: 1
   decreaseRate: 0.1
   increaseRate: 0.1
-  health: 0
+  health: 100
+  isDead: 0
   pauseMenu: {fileID: 0}
   deathMenu: {fileID: 0}
   canMove: 1

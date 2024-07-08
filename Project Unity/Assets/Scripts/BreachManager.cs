@@ -19,8 +19,6 @@ public class BreachManager : MonoBehaviour
     [SerializeField] private AudioClip zone1Music;
 
     [Header("General Audio")]
-    [SerializeField] AudioClip breachSequence;
-    [SerializeField] AudioClip alarmSource;
     [SerializeField] AudioClip[] ambience;
     [SerializeField] AudioClip[] commotion;
 

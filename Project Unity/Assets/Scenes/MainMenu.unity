@@ -1480,11 +1480,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "<u>v0.0.3</u>\n- Removed unused extra room in menu for performance\n-
-    Added a Map Seed input for user defined generations\n- Added a button to recover
-    previous seed generations\n- Added back the menu fading\n- All music now managed
-    through one script\n- General code cleanup\n- Fixed a missing . in the S.C.P.
-    text\n -Removed Room2_3_OPT (Too ugly)"
+  m_text: "<u>v0.0.3</u>\n- Removed unused extra room in menu for performance\n -Removed
+    Room2_3_OPT (Too ugly)\n- Added a Map Seed input for user defined generations\n-
+    Added a button to recover previous seed generations\n- Added back the menu fading\n-
+    All music now managed through one script\n- Menu organization (Editor wise)\n-
+    General code cleanup\n- Fixed a missing . in the S.C.P. text\n- Fixed SCP-106
+    bug where it traveled to the despawn point upon respawning"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ae6efc9ec6bc3c741abb7600bc83874f, type: 2}
   m_sharedMaterial: {fileID: -7231010222464232406, guid: ae6efc9ec6bc3c741abb7600bc83874f,

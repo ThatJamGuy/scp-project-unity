@@ -96,6 +96,7 @@ public class SCP_106 : MonoBehaviour
     {
         Quaternion desiredRotation = Quaternion.Euler(90f, 0f, 0f);
         transform.position = player.position;
+        agent.Warp(player.position);
         Instantiate(decal, transform.position, desiredRotation);
         agent.enabled = true;
     }
