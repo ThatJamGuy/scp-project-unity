@@ -7,4 +7,6 @@ public class Menu : MonoBehaviour
 
     [Header("Menu Options")]
     [SerializeField] private bool pausesTheGame;
+    [SerializeField] private bool triggeredByKey;
+    [SerializeField] private KeyCode menuKey;
 }
