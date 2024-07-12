@@ -5274,7 +5274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &859786041
 RectTransform:
   m_ObjectHideFlags: 0
@@ -6442,7 +6442,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2401ba5102977654c9583c3cd6674f3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  menuMusic: {fileID: 8300000, guid: 714ecef6096984045bad44849fb2c65f, type: 3}
+  menuMusic: {fileID: 8300000, guid: 082f7926d01e99a448ae7b33143e0953, type: 3}
   randomizedInfoTextObject: {fileID: 1148843575}
   seedInputField: {fileID: 951252961}
   firstLevel: Game01
